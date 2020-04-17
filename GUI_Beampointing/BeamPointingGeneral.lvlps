@@ -1,0 +1,53 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "39,342,880,864"
+
+[AB_Cache_{F2E63EA1-0D0D-46DF-88B3-A9251C771E1F}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "62c90bf3e5d2875525fb15e6556d1f87"
+Cache_GenFile_Count[Integer] = 4
+Cache_GenFile[0][Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version"
+Cache_GenFile[0][Path] Line0002 = "/Interface/builds/BeamPointing/BeamPointing."
+Cache_GenFile[0][Path] Line0003 = "exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version"
+Cache_GenFile[1][Path] Line0002 = "/Interface/builds/BeamPointing/BeamPointing."
+Cache_GenFile[1][Path] Line0003 = "aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version"
+Cache_GenFile[2][Path] Line0002 = "/Interface/builds/BeamPointing/BeamPointing."
+Cache_GenFile[2][Path] Line0003 = "ini"
+Cache_GenFile[3][Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version"
+Cache_GenFile[3][Path] Line0002 = "/Interface/builds/BeamPointing/data/lvanlys."
+Cache_GenFile[3][Path] Line0003 = "dll"
+Cache_GenGUID_Count[Integer] = 4
+Cache_GenGUID[0][String] = "{BEAC8158-3055-4CF7-A84C-CABBE90DD267}"
+Cache_GenGUID[1][String] = "{5D83DCEE-824F-401E-B414-2902A59EF2D8}"
+Cache_GenGUID[2][String] = "{D7289F46-893D-4498-9E26-E57F106CEAF8}"
+Cache_GenGUID[3][String] = ""
+Cache_OutputDir[Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version/"
+Cache_OutputDir[Path] Line0002 = "Interface/builds/BeamPointing"
+
+[AB_Cache_{6890B81D-1CE1-4A42-9089-2B40C81A308B}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "62c90bf3e5d2875525fb15e6556d1f87"
+Cache_GenFile_Count[Integer] = 4
+Cache_GenFile[0][Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version"
+Cache_GenFile[0][Path] Line0002 = "/Interface/builds/BeamPointing/BeamPointing."
+Cache_GenFile[0][Path] Line0003 = "exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version"
+Cache_GenFile[1][Path] Line0002 = "/Interface/builds/BeamPointing/BeamPointing."
+Cache_GenFile[1][Path] Line0003 = "aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version"
+Cache_GenFile[2][Path] Line0002 = "/Interface/builds/BeamPointing/BeamPointing."
+Cache_GenFile[2][Path] Line0003 = "ini"
+Cache_GenFile[3][Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version"
+Cache_GenFile[3][Path] Line0002 = "/Interface/builds/BeamPointing/data/lvanlys."
+Cache_GenFile[3][Path] Line0003 = "dll"
+Cache_GenGUID_Count[Integer] = 4
+Cache_GenGUID[0][String] = "{BEAC8158-3055-4CF7-A84C-CABBE90DD267}"
+Cache_GenGUID[1][String] = "{5D83DCEE-824F-401E-B414-2902A59EF2D8}"
+Cache_GenGUID[2][String] = "{D7289F46-893D-4498-9E26-E57F106CEAF8}"
+Cache_GenGUID[3][String] = ""
+Cache_OutputDir[Path] Line0001 = "/C/Users/LOASIS/Documents/Developers Version/"
+Cache_OutputDir[Path] Line0002 = "Interface/builds/BeamPointing"
+

@@ -1,0 +1,47 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "333,1273,1002,1645"
+
+[AB_Cache_{E0B74892-1851-4874-9B56-7DA6A9C94BFA}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "9d39fd655cc5137eda510949188e8926"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[0][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[0][Path] Line0003 = "/GUIs/GUI_HPD_CCD/GUI_HPD_CCD.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[1][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[1][Path] Line0003 = "/GUIs/GUI_HPD_CCD/GUI_HPD_CCD.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[2][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[2][Path] Line0003 = "/GUIs/GUI_HPD_CCD/GUI_HPD_CCD.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{47175DCD-1402-46AC-B3A7-4168AEB1A9C6}"
+Cache_GenGUID[1][String] = "{7015583F-BD3C-4191-9D71-C32B7F1A3E67}"
+Cache_GenGUID[2][String] = "{D7106E64-307E-41CE-8FA6-6A57ABDC6E91}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvie"
+Cache_OutputDir[Path] Line0002 = "w Local/Developers Version/Interface/builds/G"
+Cache_OutputDir[Path] Line0003 = "UIs/GUI_HPD_CCD"
+
+[AB_Cache_{8DF79F3A-2497-486F-AA10-4488DE6CF353}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "9d39fd655cc5137eda510949188e8926"
+Cache_GenFile_Count[Integer] = 3
+Cache_GenFile[0][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[0][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[0][Path] Line0003 = "/GUIs/GUI_HPD_CCD/GUI_HPD_CCD.exe"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[1][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[1][Path] Line0003 = "/GUIs/GUI_HPD_CCD/GUI_HPD_CCD.aliases"
+Cache_GenFile[2][Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvi"
+Cache_GenFile[2][Path] Line0002 = "ew Local/Developers Version/Interface/builds"
+Cache_GenFile[2][Path] Line0003 = "/GUIs/GUI_HPD_CCD/GUI_HPD_CCD.ini"
+Cache_GenGUID_Count[Integer] = 3
+Cache_GenGUID[0][String] = "{47175DCD-1402-46AC-B3A7-4168AEB1A9C6}"
+Cache_GenGUID[1][String] = "{7015583F-BD3C-4191-9D71-C32B7F1A3E67}"
+Cache_GenGUID[2][String] = "{D7106E64-307E-41CE-8FA6-6A57ABDC6E91}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/loasis.BELLANET/Documents/000 Labvie"
+Cache_OutputDir[Path] Line0002 = "w Local/Developers Version/Interface/builds/G"
+Cache_OutputDir[Path] Line0003 = "UIs/GUI_HPD_CCD"
+

@@ -1,0 +1,170 @@
+<HTML>
+<HEAD>
+<TITLE>Greyscale Image Averager3.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Greyscale Image Averager3.vi"></A><H2>Greyscale Image Averager3.vi</H2>
+<P>Calculate an averaged image from an array of images.</P>
+<P><IMG SRC="Greyscale_Image_Averager3c.png" ALT="Greyscale Image Averager3.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1dudtagrefflat.png" ALT="c1dudtagrefflat"></P>
+</TD>
+<TD>
+<B>Img Array IN</B> <P>The averaged output image will be calculated from this array of images.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cudtagrefflat.png" ALT="cudtagrefflat"></P>
+</TD>
+<TD>
+<B>New Image</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cudtagrefflat.png" ALT="cudtagrefflat"></P>
+</TD>
+<TD>
+<B>Image Dst In</B> <P>Reference on the image that will contain the averaged image</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>error in is a cluster that describes the error status before this VI executes. If error in indicates that an error occurred before this VI was called, this VI may choose not to execute its function, but just pass the error through to its error out cluster. If no error has occurred, then this VI executes normally and sets its own error status in error out. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The status boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option Explain Error (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The code input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option Explain Error (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The source string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option Explain Error (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iudtagrefflat.png" ALT="iudtagrefflat"></P>
+</TD>
+<TD>
+<B>Image Dst Out</B> <P>averaged image</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>error out is a cluster that describes the error status after this VI executes. If an error occurred before this VI was called, error out is the same as error in. Otherwise, error out shows the error, if any, that occurred in this VI. Use the error handler VIs to look up the error code and to display the corresponding error message. Using error in and error out clusters is a convenient way to check errors and to specify execution order by wiring the error output from one subVI to the error input of the next.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The status boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option Explain Error (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The code input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option Explain Error (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The source string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option Explain Error (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1dudtagrefflat.png" ALT="i1dudtagrefflat"></P>
+</TD>
+<TD>
+<B>Img Array Out</B> <P>Same as Image Array IN. Should be released after that</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iudtagrefflat.png" ALT="iudtagrefflat"></P>
+</TD>
+<TD>
+<B>New Image</B> </TD>
+</TR>
+</Table>
+</UL>
+</BODY>
+</HTML>
