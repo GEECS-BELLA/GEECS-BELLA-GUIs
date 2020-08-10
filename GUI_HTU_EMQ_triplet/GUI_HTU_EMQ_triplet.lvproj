@@ -68,21 +68,8 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="GUI_HTU_EMQ_triplet.vi" Type="VI" URL="../GUI_HTU_EMQ_triplet.vi"/>
-		<Item Name="Down.ctl" Type="VI" URL="../Down.ctl"/>
-		<Item Name="Left.ctl" Type="VI" URL="../Left.ctl"/>
-		<Item Name="up.ctl" Type="VI" URL="../up.ctl"/>
-		<Item Name="Right.ctl" Type="VI" URL="../Right.ctl"/>
-		<Item Name="is image ready for update.vi" Type="VI" URL="../is image ready for update.vi"/>
-		<Item Name="right small.ctl" Type="VI" URL="../right small.ctl"/>
-		<Item Name="down small.ctl" Type="VI" URL="../down small.ctl"/>
-		<Item Name="up small.ctl" Type="VI" URL="../up small.ctl"/>
-		<Item Name="left small.ctl" Type="VI" URL="../left small.ctl"/>
-		<Item Name="gnome_control_center.ico" Type="Document" URL="../gnome_control_center.ico"/>
-		<Item Name="graph.ico" Type="Document" URL="../graph.ico"/>
-		<Item Name="Controls_pico8752.ctl" Type="VI" URL="../Controls_pico8752.ctl"/>
 		<Item Name="GUI_ICON.ico" Type="Document" URL="../../GUI_HTU_Control/GUI_ICON.ico"/>
 		<Item Name="ReadFileForCurrentList.vi" Type="VI" URL="../../../Device Drivers/KepcoBOP/subVIs/ReadFileForCurrentList.vi"/>
-		<Item Name="chicane icon.ico" Type="Document" URL="../chicane icon.ico"/>
 		<Item Name="EMQ triple.ico" Type="Document" URL="../EMQ triple.ico"/>
 		<Item Name="CurrentCalculation.vi" Type="VI" URL="../CurrentCalculation.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -393,8 +380,8 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
