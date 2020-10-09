@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -18,7 +18,7 @@
 			<Item Name="no timeout error.vi" Type="VI" URL="../../../../../shared programs/GUI_Template/udp.llb/no timeout error.vi"/>
 			<Item Name="UDPserverTC105.vi" Type="VI" URL="../../../../../shared programs/GUI_Template/udp.llb/UDPserverTC105.vi"/>
 		</Item>
-		<Item Name="GUI_HTT_Pico_LCave.vi" Type="VI" URL="../GUI_HTT_Pico_LCave.vi"/>
+		<Item Name="GUI_HTT_Pico_LCave2.vi" Type="VI" URL="../GUI_HTT_Pico_LCave2.vi"/>
 		<Item Name="getMotorNames.vi" Type="VI" URL="../SUbVI/getMotorNames.vi"/>
 		<Item Name="up.ctl" Type="VI" URL="../Ctrs/up.ctl"/>
 		<Item Name="LcavePico.ico" Type="Document" URL="../LcavePico.ico"/>
@@ -256,8 +256,6 @@
 				<Item Name="Sort 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U32)__ogtk.vi"/>
 				<Item Name="Sort 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U64)__ogtk.vi"/>
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
-				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
-				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
@@ -287,6 +285,8 @@
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -305,7 +305,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -350,6 +349,7 @@
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			</Item>
 			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
 			<Item Name="preset SQL Queries.vi" Type="VI" URL="../../../Shared/MySQL/preset SQL Queries.vi"/>
@@ -453,26 +453,28 @@
 			<Item Name="get ip ports and subscribe commands for expt tcp data.vi" Type="VI" URL="../../../General GUIs/General-Controler/get ip ports and subscribe commands for expt tcp data.vi"/>
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="GUI_HTT_Pico_LCave" Type="EXE">
+			<Item Name="GUI_HTT_Pico_LCave2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{6EA0928D-4C1A-4F5F-9F4B-51CA7968A1B4}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A3E1832E-015D-48BC-990B-D47A79493910}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B6406CEC-9808-4ED0-B8C8-8F5041BAB2D7}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">GUI_HTT_Pico_LCave</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_HTT_Pico_LCave2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F48E9083-1909-4D44-9D79-5F0657F116A4}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">GUI_HTT_Pico_LCave.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/GUI_HTT_Pico_LCave.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_HTT_Pico_LCave2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/GUI_HTT_Pico_LCave2.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -481,10 +483,10 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LcavePico.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4FDB34D3-30F3-4783-AC8D-D5620E410CD6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{88686F36-D6C4-4B4D-9DFE-D1769CBCEF44}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_HTT_Pico_LCave.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_HTT_Pico_LCave2.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
@@ -505,12 +507,12 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">GUI_HTT_Pico_LCave</Property>
-				<Property Name="TgtF_internalName" Type="Str">GUI_HTT_Pico_LCave</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_HTT_Pico_LCave2</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_HTT_Pico_LCave2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 LBNL</Property>
-				<Property Name="TgtF_productName" Type="Str">GUI_HTT_Pico_LCave</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_HTT_Pico_LCave2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B4A98A48-C1F9-426C-A88E-B9D1028CAB99}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">GUI_HTT_Pico_LCave.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_HTT_Pico_LCave2.exe</Property>
 			</Item>
 		</Item>
 	</Item>
