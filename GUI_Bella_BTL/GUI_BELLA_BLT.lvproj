@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -94,17 +94,24 @@
 		<Item Name="GUI_Bella_Control_Center-ForShowOnly.vi" Type="VI" URL="../GUI_Bella_Control_Center-ForShowOnly.vi"/>
 		<Item Name="GUI_Bella_GAIAs.vi" Type="VI" URL="../GUI_Bella_GAIAs.vi"/>
 		<Item Name="Controls_pico8752.ctl" Type="VI" URL="../Controls_pico8752.ctl"/>
-		<Item Name="Wake Multiple Computers.vi" Type="VI" URL="../../../../../shared programs/Remote Startup/Wake Multiple Computers.vi"/>
-		<Item Name="get MACs.vi" Type="VI" URL="../../../../../shared programs/MySQL/get MACs.vi"/>
-		<Item Name="udp multi alive.vi" Type="VI" URL="../../../../General/General-Controler/udp multi alive.vi"/>
 		<Item Name="Hexapod1check.vi" Type="VI" URL="../../GUI_HPDMAP/Hexapod1check.vi"/>
 		<Item Name="GUI_Capillary_Transverse_Diagnostics.vi" Type="VI" URL="../GUI_Capillary_Transverse_Diagnostics.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
+				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
+				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
+				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
+				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
+				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
 				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
@@ -129,15 +136,6 @@
 				<Item Name="Remove Duplicates from 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
-				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
-				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
-				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
-				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
-				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
-				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
-				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
-				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
-				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 				<Item Name="Search 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I32)__ogtk.vi"/>
 				<Item Name="Search 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="Search 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I64)__ogtk.vi"/>
@@ -361,36 +359,49 @@
 				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index Array Elements__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index Array Elements__ogtk.vi"/>
+				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
+				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 				<Item Name="Set Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Cluster Element by Name__ogtk.vi"/>
-				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
-				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
+				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
-				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
-				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
-				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="LVRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRangeTypeDef.ctl"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
+				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
+				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
+				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
+				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
+				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
+				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
+				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
+				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -420,18 +431,6 @@
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
-				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
-				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
-				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
-				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
-				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
-				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
 				<Item Name="UDP Multicast Write-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Write-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
@@ -440,40 +439,29 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Read Custom Data" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Read Custom Data"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
+				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
-				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
-				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
-				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
-			</Item>
-			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 			</Item>
 			<Item Name="LaunchGUI.vi" Type="VI" URL="../../StagingBeamline/SubVis/LaunchGUI.vi"/>
 			<Item Name="disableUnusedSubPanels.vi" Type="VI" URL="../../StagingBeamline/SubVis/disableUnusedSubPanels.vi"/>
-			<Item Name="diagnosticQuee.ctl" Type="VI" URL="../../StagingBeamline/Controls/diagnosticQuee.ctl"/>
 			<Item Name="deviceQueue.ctl" Type="VI" URL="../../StagingBeamline/Controls/deviceQueue.ctl"/>
-			<Item Name="GetDataSubVi.vi" Type="VI" URL="../../StagingBeamline/SubVis/GetDataSubVi.vi"/>
 			<Item Name="DeviceControl_Typdef.ctl" Type="VI" URL="../../StagingBeamline/Controls/DeviceControl_Typdef.ctl"/>
 			<Item Name="getDeviceType.vi" Type="VI" URL="../../StagingBeamline/SubVis/getDeviceType.vi"/>
 			<Item Name="getSubVarib.vi" Type="VI" URL="../../StagingBeamline/SubVis/getSubVarib.vi"/>
 			<Item Name="getDeviceIP.vi" Type="VI" URL="../../StagingBeamline/SubVis/getDeviceIP.vi"/>
 			<Item Name="DiagDeviceControl.vi" Type="VI" URL="../../StagingBeamline/SubVis/DiagDeviceControl.vi"/>
-			<Item Name="multi ping2.vi" Type="VI" URL="../../../../General/General-Controler/multi ping2.vi"/>
 			<Item Name="launchSubVI.vi" Type="VI" URL="../../StagingBeamline/SubVis/launchSubVI.vi"/>
-			<Item Name="TemplateMenu.rtm" Type="Document" URL="../../GUI_Template/Developers Version/Interface/GUI_Template/TemplateMenu.rtm"/>
 			<Item Name="createGUIEvent.vi" Type="VI" URL="../../StagingBeamline/SubVis/createGUIEvent.vi"/>
 			<Item Name="eventHandler.vi" Type="VI" URL="../../StagingBeamline/SubVis/eventHandler.vi"/>
-			<Item Name="multi ping or nmap.vi" Type="VI" URL="../../../../General/General-Controler/multi ping or nmap.vi"/>
-			<Item Name="firstCall_TypDef.ctl" Type="VI" URL="../../General-Controler/firstCall_TypDef.ctl"/>
-			<Item Name="fistCallFGV.vi" Type="VI" URL="../../General-Controler/fistCallFGV.vi"/>
 			<Item Name="InitMagnetInterface.vi" Type="VI" URL="../../StagingMagSpecPower/subVi/InitMagnetInterface.vi"/>
 			<Item Name="MagnetCluster.ctl" Type="VI" URL="../../StagingMagSpecPower/MagnetCluster.ctl"/>
 			<Item Name="readMagnetInfo.vi" Type="VI" URL="../../StagingMagSpecPower/subVi/readMagnetInfo.vi"/>
@@ -488,7 +476,6 @@
 			<Item Name="energyCalibTypdef.ctl" Type="VI" URL="../../../../../Device Driver/StagingAnalysis/SubVis/energyCalibTypdef.ctl"/>
 			<Item Name="TwoPieceModel_not conti.vi" Type="VI" URL="../../../../../Device Driver/StagingAnalysis/SubVis/SubVi/TwoPieceModel_not conti.vi"/>
 			<Item Name="Fire button.ctl" Type="VI" URL="../../GUI_TestStand/Fire button.ctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="open tcp connections and create images.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/open tcp connections and create images.vi"/>
 			<Item Name="get multiple images over tcp.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/get multiple images over tcp.vi"/>
 			<Item Name="normalize vision image.vi" Type="VI" URL="../../../Shared/normalize vision image.vi"/>
@@ -498,38 +485,86 @@
 			<Item Name="decimate multiple graphs.vi" Type="VI" URL="../../shared/decimate multiple graphs.vi"/>
 			<Item Name="add values to xy graph 24 plots.vi" Type="VI" URL="../../../../General/shared/add values to xy graph 24 plots.vi"/>
 			<Item Name="get info from core device data.vi" Type="VI" URL="../../../General GUIs/General-Controler/get info from core device data.vi"/>
-			<Item Name="parse subscribe command.vi" Type="VI" URL="../../../Shared/parse subscribe command.vi"/>
 			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
 			<Item Name="preset SQL Queries.vi" Type="VI" URL="../../../Shared/MySQL/preset SQL Queries.vi"/>
 			<Item Name="SQL Query.vi" Type="VI" URL="../../../Shared/MySQL/SQL Query.vi"/>
 			<Item Name="SQL Server Info.vi" Type="VI" URL="../../../Shared/MySQL/SQL Server Info.vi"/>
-			<Item Name="GUIDeviceInfo_TypDEf.ctl" Type="VI" URL="../../../Shared/Device Driver/GUIDeviceInfo_TypDEf.ctl"/>
-			<Item Name="GenerateQueues.vi" Type="VI" URL="../../../Shared/Device Driver/GenerateQueues.vi"/>
-			<Item Name="getDataFrame.vi" Type="VI" URL="../../../Shared/Device Driver/getDataFrame.vi"/>
-			<Item Name="closeQueues.vi" Type="VI" URL="../../../Shared/Device Driver/closeQueues.vi"/>
-			<Item Name="Filter_typdef.ctl" Type="VI" URL="../../../Device Drivers/LEPS Interface/Filter_typdef.ctl"/>
 			<Item Name="draw crosshair imaq.vi" Type="VI" URL="../../../Shared/draw crosshair imaq.vi"/>
-			<Item Name="send commands to LV starters.vi" Type="VI" URL="../../../../../shared programs/send commands to LV starters.vi"/>
-			<Item Name="multi udp send spawn.vi" Type="VI" URL="../../../../General/General-Controler/multi udp send spawn.vi"/>
-			<Item Name="get single GUI start stop commands.vi" Type="VI" URL="../../../../General/General-Controler/get single GUI start stop commands.vi"/>
 			<Item Name="Image GUI options.ctl" Type="VI" URL="../../../General GUIs/shared/Image GUI options.ctl"/>
 			<Item Name="SQL edit expt device variable.vi" Type="VI" URL="../../../../General/shared/SQL edit expt device variable.vi"/>
 			<Item Name="DefaultValue_Variable_MC.vi" Type="VI" URL="../../../../General/Database Manager/DefaultValue_Variable_MC.vi"/>
 			<Item Name="GetDevaultValues.vi" Type="VI" URL="../../../../../Device Driver/BaseDriver/GetDevaultValues.vi"/>
-			<Item Name="EventTypDef.ctl" Type="VI" URL="../../../../../shared programs/GUI_Template/EventTypDef.ctl"/>
-			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../../Shared/type definition/trace_TypDef.ctl"/>
-			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../../Device Drivers/shared/scopeTraceInfo_TypDEf.ctl"/>
-			<Item Name="stringToImage.vi" Type="VI" URL="../../../Shared/TCP/stringToImage.vi"/>
-			<Item Name="rescaleImage.vi" Type="VI" URL="../../../General GUIs/shared/rescaleImage.vi"/>
-			<Item Name="imagebitDepth.vi" Type="VI" URL="../../../General GUIs/shared/imagebitDepth.vi"/>
-			<Item Name="string to waveform for scope traces.vi" Type="VI" URL="../../../Shared/string to waveform for scope traces.vi"/>
-			<Item Name="unflattenScopeTrace.vi" Type="VI" URL="../../../Shared/unflattenScopeTrace.vi"/>
-			<Item Name="scopeTrace_TypDef.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Scopes/scopeTrace_TypDef.ctl"/>
-			<Item Name="toWaveform.vi" Type="VI" URL="../../../Device Drivers/ScopeAnalysis/SubVis/toWaveform.vi"/>
-			<Item Name="RingValueFromString.vi" Type="VI" URL="../../../Shared/Device Driver/UtilsLib/Rings/RingValueFromString.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
 			<Item Name="getIP.vi" Type="VI" URL="../../../Shared/Device Driver/getIP.vi"/>
+			<Item Name="lv_mysql_conn_send_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_data_packet.vi"/>
+			<Item Name="lv_mysql_conn_close.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_close.vi"/>
+			<Item Name="ok_packet_metadata.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/ok_packet_metadata.ctl"/>
+			<Item Name="lv_mysql_conn_eof_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_eof_packet.vi"/>
+			<Item Name="ByteToVariant.vi" Type="VI" URL="../../../Shared/MySQL/ByteToVariant.vi"/>
+			<Item Name="wholeRowToVAriant.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/wholeRowToVAriant.vi"/>
+			<Item Name="lv_mysql_conn_length_coded_binary.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_length_coded_binary.vi"/>
+			<Item Name="lv_mysql_conn_ok_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_ok_packet.vi"/>
+			<Item Name="return_packet_type.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/return_packet_type.ctl"/>
+			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
+			<Item Name="lv_mysql_conn_receive_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_receive_data_packet.vi"/>
+			<Item Name="lv_mysql_conn_return_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_return_packet.vi"/>
+			<Item Name="lv_mysql_conn_send_command.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_command.vi"/>
+			<Item Name="lv_mysql_conn_query.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_query.vi"/>
+			<Item Name="SHA-1 Digest.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Digest.vi"/>
+			<Item Name="SHA-1 Core.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Core.vi"/>
+			<Item Name="SHA-1 Pad.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Pad.vi"/>
+			<Item Name="SHA-1.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1.vi"/>
+			<Item Name="lv_mysql_conn_encrypt_passwd.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_encrypt_passwd.vi"/>
+			<Item Name="server_init_data.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/server_init_data.ctl"/>
+			<Item Name="lv_mysql_conn_init_client_data.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_init_client_data.vi"/>
+			<Item Name="lv_mysql_conn_init_server_data.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_init_server_data.vi"/>
+			<Item Name="lv_mysql_conn_init.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_init.vi"/>
+			<Item Name="database configuration.ctl" Type="VI" URL="../../../Shared/MySQL/database configuration.ctl"/>
+			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
+			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
+			<Item Name="TriggerSource_TypDef.ctl" Type="VI" URL="../../../Device Drivers/DG645/subVIs/TriggerSource_TypDef.ctl"/>
+			<Item Name="ellipse description.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/ellipse description.ctl"/>
+			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
+			<Item Name="Crosshair type def.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/Crosshair type def.ctl"/>
+			<Item Name="Start and End point of crosshair Y axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair Y axis.vi"/>
+			<Item Name="Start and End point of crosshair X axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair X axis.vi"/>
+			<Item Name="device name shot number from tcp udp.vi" Type="VI" URL="../../../General GUIs/shared/device name shot number from tcp udp.vi"/>
+			<Item Name="image strings to images.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/image strings to images.vi"/>
+			<Item Name="tcp open connection from subscription messag.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/tcp open connection from subscription messag.vi"/>
+			<Item Name="CleanErr56-66.vi" Type="VI" URL="../../../Shared/Device Driver/CleanErr56-66.vi"/>
+			<Item Name="get tcp data and restart tcp conn if dead.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/get tcp data and restart tcp conn if dead.vi"/>
+			<Item Name="image color table presets.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.ctl"/>
+			<Item Name="IMAQ color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/IMAQ color table presets.vi"/>
+			<Item Name="image color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.vi"/>
+			<Item Name="Color Table Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Color Table Generator.vi"/>
+			<Item Name="Component Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Component Generator.vi"/>
+			<Item Name="Convert Ascii Mac-Address to Hex Mac-Address.vi" Type="VI" URL="../../../Shared/Remote Startup/Convert Ascii Mac-Address to Hex Mac-Address.vi"/>
+			<Item Name="SendWakeCommand.vi" Type="VI" URL="../../../Shared/Remote Startup/SendWakeCommand.vi"/>
+			<Item Name="multi udp send spawn.vi" Type="VI" URL="../../../General GUIs/General-Controler/multi udp send spawn.vi"/>
+			<Item Name="send diff commands to diff LV starters.vi" Type="VI" URL="../../../Shared/send diff commands to diff LV starters.vi"/>
+			<Item Name="clean up ip and message arrays for multiple udp send.vi" Type="VI" URL="../../../General GUIs/General-Controler/clean up ip and message arrays for multiple udp send.vi"/>
+			<Item Name="LaunchProgressBar.vi" Type="VI" URL="../../../Shared/ProgressBarExample/pbar/LaunchProgressBar.vi"/>
+			<Item Name="UpdateProgressBar.vi" Type="VI" URL="../../../Shared/ProgressBarExample/pbar/UpdateProgressBar.vi"/>
+			<Item Name="CloseProgressBar.vi" Type="VI" URL="../../../Shared/ProgressBarExample/pbar/CloseProgressBar.vi"/>
+			<Item Name="get single GUI start stop commands.vi" Type="VI" URL="../../../General GUIs/General-Controler/get single GUI start stop commands.vi"/>
+			<Item Name="search column name and give all col values.vi" Type="VI" URL="../../../General GUIs/General-Controler/search column name and give all col values.vi"/>
+			<Item Name="multi ping2.vi" Type="VI" URL="../../../General GUIs/General-Controler/multi ping2.vi"/>
+			<Item Name="ping computer.vi" Type="VI" URL="../../../General GUIs/General-Controler/ping computer.vi"/>
+			<Item Name="multi ping or nmap.vi" Type="VI" URL="../../../General GUIs/General-Controler/multi ping or nmap.vi"/>
+			<Item Name="Remove Blank and Duplicate elements from array.vi" Type="VI" URL="../../../General GUIs/shared/Remove Blank and Duplicate elements from array.vi"/>
+			<Item Name="nmap ping ip array.vi" Type="VI" URL="../../../General GUIs/General-Controler/nmap ping ip array.vi"/>
+			<Item Name="nmap.vi" Type="VI" URL="../../../General GUIs/General-Controler/nmap.vi"/>
+			<Item Name="firstCall_TypDef.ctl" Type="VI" URL="../../../General GUIs/General-Controler/firstCall_TypDef.ctl"/>
+			<Item Name="fistCallFGV.vi" Type="VI" URL="../../../General GUIs/General-Controler/fistCallFGV.vi"/>
+			<Item Name="Wake Multiple Computers.vi" Type="VI" URL="../../../Shared/Remote Startup/Wake Multiple Computers.vi"/>
+			<Item Name="get MACs.vi" Type="VI" URL="../../../Shared/MySQL/get MACs.vi"/>
+			<Item Name="udp multi alive.vi" Type="VI" URL="../../../General GUIs/General-Controler/udp multi alive.vi"/>
+			<Item Name="parse subscribe command.vi" Type="VI" URL="../../../Shared/parse subscribe command.vi"/>
+			<Item Name="GUIDeviceInfo_TypDEf.ctl" Type="VI" URL="../../../Shared/Device Driver/GUIDeviceInfo_TypDEf.ctl"/>
+			<Item Name="GenerateQueues.vi" Type="VI" URL="../../../Shared/Device Driver/GenerateQueues.vi"/>
+			<Item Name="getDataFrame.vi" Type="VI" URL="../../../Shared/Device Driver/getDataFrame.vi"/>
+			<Item Name="closeQueues.vi" Type="VI" URL="../../../Shared/Device Driver/closeQueues.vi"/>
 			<Item Name="enableEnumItems.vi" Type="VI" URL="../../../Shared/Device Driver/enableEnumItems.vi"/>
 			<Item Name="ChnageControlLimits.vi" Type="VI" URL="../../../Shared/Device Driver/ChnageControlLimits.vi"/>
 			<Item Name="GUIcreateEnebleList.vi" Type="VI" URL="../../../Shared/Device Driver/GUIcreateEnebleList.vi"/>
@@ -570,55 +605,33 @@
 			<Item Name="GUI_control_ref.ctl" Type="VI" URL="../../../General GUIs/shared/Custom Controls/GUI_control_ref.ctl"/>
 			<Item Name="getGUIButtonRef.vi" Type="VI" URL="../../../General GUIs/shared/getGUIButtonRef.vi"/>
 			<Item Name="getTapControls.vi" Type="VI" URL="../../../General GUIs/shared/getTapControls.vi"/>
-			<Item Name="lv_mysql_conn_send_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_data_packet.vi"/>
-			<Item Name="lv_mysql_conn_close.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_close.vi"/>
-			<Item Name="ok_packet_metadata.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/ok_packet_metadata.ctl"/>
-			<Item Name="lv_mysql_conn_eof_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_eof_packet.vi"/>
-			<Item Name="ByteToVariant.vi" Type="VI" URL="../../../Shared/MySQL/ByteToVariant.vi"/>
-			<Item Name="wholeRowToVAriant.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/wholeRowToVAriant.vi"/>
-			<Item Name="lv_mysql_conn_length_coded_binary.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_length_coded_binary.vi"/>
-			<Item Name="lv_mysql_conn_ok_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_ok_packet.vi"/>
-			<Item Name="return_packet_type.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/return_packet_type.ctl"/>
-			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
-			<Item Name="lv_mysql_conn_receive_data_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_receive_data_packet.vi"/>
-			<Item Name="lv_mysql_conn_return_packet.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_return_packet.vi"/>
-			<Item Name="lv_mysql_conn_send_command.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_send_command.vi"/>
-			<Item Name="lv_mysql_conn_query.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_query.vi"/>
-			<Item Name="SHA-1 Digest.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Digest.vi"/>
-			<Item Name="SHA-1 Core.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Core.vi"/>
-			<Item Name="SHA-1 Pad.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1 Pad.vi"/>
-			<Item Name="SHA-1.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/SHA-1/SHA-1.vi"/>
-			<Item Name="lv_mysql_conn_encrypt_passwd.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_encrypt_passwd.vi"/>
-			<Item Name="server_init_data.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/server_init_data.ctl"/>
-			<Item Name="lv_mysql_conn_init_client_data.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_init_client_data.vi"/>
-			<Item Name="lv_mysql_conn_init_server_data.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_init_server_data.vi"/>
-			<Item Name="lv_mysql_conn_init.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_init.vi"/>
-			<Item Name="database configuration.ctl" Type="VI" URL="../../../Shared/MySQL/database configuration.ctl"/>
-			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
-			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
-			<Item Name="generateStopQueue.vi" Type="VI" URL="../../../Shared/Device Driver/generateStopQueue.vi"/>
 			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
-			<Item Name="TriggerSource_TypDef.ctl" Type="VI" URL="../../../Device Drivers/DG645/subVIs/TriggerSource_TypDef.ctl"/>
+			<Item Name="TemplateMenu.rtm" Type="Document" URL="../../GUI_Template/Developers Version/Interface/GUI_Template/TemplateMenu.rtm"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="generateStopQueue.vi" Type="VI" URL="../../../Shared/Device Driver/generateStopQueue.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="trace_TypDef.ctl" Type="VI" URL="../../../Shared/type definition/trace_TypDef.ctl"/>
+			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../../Device Drivers/shared/scopeTraceInfo_TypDEf.ctl"/>
+			<Item Name="stringToImage.vi" Type="VI" URL="../../../Shared/TCP/stringToImage.vi"/>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="rescaleImage.vi" Type="VI" URL="../../../General GUIs/shared/rescaleImage.vi"/>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="imagebitDepth.vi" Type="VI" URL="../../../General GUIs/shared/imagebitDepth.vi"/>
+			<Item Name="string to waveform for scope traces.vi" Type="VI" URL="../../../Shared/string to waveform for scope traces.vi"/>
+			<Item Name="unflattenScopeTrace.vi" Type="VI" URL="../../../Shared/unflattenScopeTrace.vi"/>
+			<Item Name="scopeTrace_TypDef.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Scopes/scopeTrace_TypDef.ctl"/>
+			<Item Name="toWaveform.vi" Type="VI" URL="../../../Device Drivers/ScopeAnalysis/SubVis/toWaveform.vi"/>
+			<Item Name="RingValueFromString.vi" Type="VI" URL="../../../Shared/Device Driver/UtilsLib/Rings/RingValueFromString.vi"/>
 			<Item Name="stop FGV control.ctl" Type="VI" URL="../../../Device Drivers/shared/stop FGV control.ctl"/>
 			<Item Name="get ip ports and subscribe commands for expt tcp data.vi" Type="VI" URL="../../../General GUIs/General-Controler/get ip ports and subscribe commands for expt tcp data.vi"/>
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
-			<Item Name="Filter_typdef.ctl" Type="VI" URL="../../../../../Device Driver/LEPS Interface/Filter_typdef.ctl"/>
-			<Item Name="ellipse description.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/ellipse description.ctl"/>
-			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
-			<Item Name="Crosshair type def.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/Crosshair type def.ctl"/>
-			<Item Name="Start and End point of crosshair Y axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair Y axis.vi"/>
-			<Item Name="Start and End point of crosshair X axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair X axis.vi"/>
-			<Item Name="device name shot number from tcp udp.vi" Type="VI" URL="../../../General GUIs/shared/device name shot number from tcp udp.vi"/>
-			<Item Name="image strings to images.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/image strings to images.vi"/>
-			<Item Name="tcp open connection from subscription messag.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/tcp open connection from subscription messag.vi"/>
-			<Item Name="CleanErr56-66.vi" Type="VI" URL="../../../Shared/Device Driver/CleanErr56-66.vi"/>
-			<Item Name="get tcp data and restart tcp conn if dead.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/get tcp data and restart tcp conn if dead.vi"/>
-			<Item Name="image color table presets.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.ctl"/>
-			<Item Name="IMAQ color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/IMAQ color table presets.vi"/>
-			<Item Name="image color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.vi"/>
-			<Item Name="Color Table Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Color Table Generator.vi"/>
-			<Item Name="Component Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Component Generator.vi"/>
+			<Item Name="Filter_typdef.ctl" Type="VI" URL="../../../Device Drivers/LEPS Interface/Filter_typdef.ctl"/>
+			<Item Name="send commands to LV starters.vi" Type="VI" URL="../../../Shared/send commands to LV starters.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
@@ -626,6 +639,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{4C8932B3-D66B-47E3-B8A0-25BDE7A60EFD}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{AA5C2317-1FE4-47F2-88C5-1056AA9ADBE4}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F3FBE333-BD0F-4E10-B584-436B704E04C2}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_Control_Center</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -676,6 +690,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{4D445397-70B5-4217-B4AC-FCB2A08C842E}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{22C3623E-12C3-4129-A1F2-CB60D140436A}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C1BC4EB7-6AAE-4FC0-91A4-4080A443636E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_BTL_small</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -723,6 +738,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{963D7C9E-1D3A-449B-91A6-BB53216363B7}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{83989758-7C83-4F76-B0A3-834A86CEBB82}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{BD93A463-F7C8-43F8-BFD1-C0E467EC5803}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_BTL_small_nocams</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -773,6 +789,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{F1AC8808-CC04-422D-A71D-B24FDD0093B5}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{BF428355-0730-4692-BF08-DFACFF272466}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{08341E9D-4EB4-4467-B9A1-416C0C920C09}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -817,6 +834,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{7015583F-BD3C-4191-9D71-C32B7F1A3E67}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D7106E64-307E-41CE-8FA6-6A57ABDC6E91}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E0B74892-1851-4874-9B56-7DA6A9C94BFA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_BTL_MirrorMounts</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -867,6 +885,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{65974BC7-02C1-4CF7-B6D0-5334A92E017C}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D588BE3B-79F1-43C4-8100-C585BDE5DFAF}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3879D9D5-7B02-4EBC-A697-7E9E407AE864}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_LPMode_M5</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -914,6 +933,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{F2BB37DF-0C38-4743-B9E2-3B543A5A27C9}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{E54C8047-7737-463D-9E09-46FEF2198C95}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{070E11D5-78A2-4232-8F8B-EB9D1AD5CA4D}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">BellaBeamLine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -971,6 +991,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{F63F44E7-BABB-4701-808B-D0A204809B9D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{2EE64DF1-F3BD-48A9-8DDC-88A1569A7B85}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{357B1320-E85C-435E-8588-91F8A62CA482}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_Laser</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1024,6 +1045,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{7D054ACB-E1D2-4951-A61B-B2206BDD1D36}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{DE494C88-0B21-45FE-8435-9DF79E0FC019}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9E4251D9-24D1-4669-B2FA-4D9F2EBB653F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_Laser_separate_graphs</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1080,6 +1102,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{7C554452-F35C-422F-825B-850117F776B6}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{FFC223E5-D8F8-487B-A6C9-B11F749A544C}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FB377866-6340-4B69-B0FB-FD74327684EA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">subscribe and plot</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1142,6 +1165,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{941D3BF5-43E7-4AFE-BE14-6A4804CE4CDD}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{CDC527A4-4624-40E4-90B4-01A06A1FD86D}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FFA2F898-71A7-4095-893F-1841F62455D6}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_GAIAs</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1198,6 +1222,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{CFAC1DF5-EE13-4BB1-989C-B4F3CBE8088B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{FF6759E3-4EF3-437A-BAE3-554928AA2616}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{25AA3CB6-4419-4115-879C-F083E321F27D}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_MagSpecStitcher</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
