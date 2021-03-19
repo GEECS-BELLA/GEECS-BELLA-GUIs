@@ -936,7 +936,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/bp.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E6046EE5-1AFD-4C0F-ABAF-C6E74B6B0BC1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DF468FC7-920C-4DBB-8561-EB1BA8C5E95B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Beampointing2_TRA.vi</Property>
