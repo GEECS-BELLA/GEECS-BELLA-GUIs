@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -23,6 +23,7 @@
 		<Item Name="bp.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp.ico"/>
 		<Item Name="bp_red.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp_red.ico"/>
 		<Item Name="CENTRIOD DETECTION.vi" Type="VI" URL="../CENTRIOD DETECTION.vi"/>
+		<Item Name="delete me.vi" Type="VI" URL="../delete me.vi"/>
 		<Item Name="draw box imaq.vi" Type="VI" URL="../draw box imaq.vi"/>
 		<Item Name="get controls from tab.vi" Type="VI" URL="../get controls from tab.vi"/>
 		<Item Name="getMotorNames.vi" Type="VI" URL="../getMotorNames.vi"/>
@@ -297,14 +298,15 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
-				<Item Name="Build State String with Arguments__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Build State String with Arguments__jki_lib_state_machine.vi"/>
+				<Item Name="Build State String with Arguments__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__jki_lib_state_machine.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ClearError.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
@@ -322,7 +324,7 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -347,6 +349,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -354,7 +357,7 @@
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
@@ -397,15 +400,14 @@
 			<Item Name="beam detection.ctl" Type="VI" URL="../Ctrs/beam detection.ctl"/>
 			<Item Name="ByteToVariant.vi" Type="VI" URL="../../../Shared/MySQL/ByteToVariant.vi"/>
 			<Item Name="ChnageControlLimits.vi" Type="VI" URL="../../../Shared/Device Driver/ChnageControlLimits.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 			<Item Name="closeQueues.vi" Type="VI" URL="../../../Shared/Device Driver/closeQueues.vi"/>
 			<Item Name="connectUDP.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/connectUDP.vi"/>
 			<Item Name="CreateError.vi" Type="VI" URL="../../../Device Drivers/shared/CreateError.vi"/>
-			<Item Name="Crosshair type def.ctl" Type="VI" URL="../../GUI_Stage_Cameras/Controls/Crosshair type def.ctl"/>
 			<Item Name="Crosshair type def.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/Crosshair type def.ctl"/>
 			<Item Name="database configuration.ctl" Type="VI" URL="../../../Shared/MySQL/database configuration.ctl"/>
 			<Item Name="DataUpdateFrame.vi" Type="VI" URL="../../../Shared/Device Driver/DataUpdateFrame.vi"/>
 			<Item Name="draw crosshair imaq.vi" Type="VI" URL="../../../Shared/draw crosshair imaq.vi"/>
-			<Item Name="draw crosshair imaq.vi" Type="VI" URL="../../../../../shared programs/draw crosshair imaq.vi"/>
 			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
 			<Item Name="ellipse description.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/ellipse description.ctl"/>
 			<Item Name="enableEnumItems.vi" Type="VI" URL="../../../Shared/Device Driver/enableEnumItems.vi"/>
@@ -432,7 +434,6 @@
 			<Item Name="getTapControls.vi" Type="VI" URL="../../../General GUIs/shared/getTapControls.vi"/>
 			<Item Name="getVarLimitsDB.vi" Type="VI" URL="../../../Shared/Device Driver/getVarLimitsDB.vi"/>
 			<Item Name="GUI_control_ref.ctl" Type="VI" URL="../../../General GUIs/shared/Custom Controls/GUI_control_ref.ctl"/>
-			<Item Name="GUI_Master_subvi_reentrant_queues.vi" Type="VI" URL="../../../../../shared programs/GUI_Template/GUI_master/GUI_Master_subvi_reentrant_queues.vi"/>
 			<Item Name="GUIcreateEnebleList.vi" Type="VI" URL="../../../Shared/Device Driver/GUIcreateEnebleList.vi"/>
 			<Item Name="GUIDeviceInfo_TypDEf.ctl" Type="VI" URL="../../../Shared/Device Driver/GUIDeviceInfo_TypDEf.ctl"/>
 			<Item Name="imagebitDepth.vi" Type="VI" URL="../../../General GUIs/shared/imagebitDepth.vi"/>
@@ -497,10 +498,7 @@
 			<Item Name="string to waveform for scope traces.vi" Type="VI" URL="../../../Shared/string to waveform for scope traces.vi"/>
 			<Item Name="stringToImage.vi" Type="VI" URL="../../../Shared/TCP/stringToImage.vi"/>
 			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
-			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../../../shared programs/supergui create stop queue.vi"/>
-			<Item Name="tcp new data cluster.ctl" Type="VI" URL="../../../../../shared programs/GUI_Template/GUI_master/tcp new data cluster.ctl"/>
 			<Item Name="TCP Write Alive 2.vi" Type="VI" URL="../../../General GUIs/Central GUI for Open Clients/TCP Write Alive 2.vi"/>
-			<Item Name="tcp_new_data_event.ctl" Type="VI" URL="../../../../../shared programs/GUI_Template/GUI_master/tcp_new_data_event.ctl"/>
 			<Item Name="toBoolean(strict).vi" Type="VI" URL="../../../General GUIs/shared/toBoolean(strict).vi"/>
 			<Item Name="toString.vi" Type="VI" URL="../../../General GUIs/shared/toString.vi"/>
 			<Item Name="toWaveform.vi" Type="VI" URL="../../../Device Drivers/ScopeAnalysis/SubVis/toWaveform.vi"/>
@@ -518,6 +516,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{DC3C259F-DD7D-4656-AB6F-53E16AE58750}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B37B7B63-E074-4720-B025-11D8F93FDD16}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{58281600-1290-4DC8-9708-342A3E891FC4}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">BeamPointing_Multi_TRA</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -620,6 +619,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{42B0EE0B-0A55-41DC-8F40-19469F280BBF}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{33896F40-7EB2-42A1-B089-021FA8F33F4F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{88BE55DE-0707-4A47-93B2-3153320315CF}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_BeamPointing_Heater</Property>
@@ -699,6 +699,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{3BDAA933-34BD-4BBA-8DE6-5900441A17A5}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{FFBC2658-C514-4046-8A6A-9F468B67DA86}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AF106AB8-7807-4905-8933-0C524BE9C20B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Beampointing_HTU_TRA_diode</Property>
@@ -781,6 +782,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{FAC2FA34-F203-4794-BE13-0B33C1585D0A}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{E4C2CAA7-C856-49F2-B5B4-E09BA0EAE8AA}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{46079432-B64D-457A-8BD0-6588D74BC142}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_BeamPointing_Pico</Property>
@@ -885,6 +887,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{7A860853-4DB6-48DC-94A5-0A32E4E93032}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B9917839-BCB9-4997-B2CC-20395945259E}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A377E43E-36C8-46D8-BDCE-B5BA2D248453}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_BeamPointing_Pico_upstairs</Property>
@@ -986,6 +989,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{45EFEFF3-61C9-418E-9DDD-61EA0EC6B5A1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{473CD789-F0B2-42AD-9456-2D8B0D25C26D}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{85A3821A-714F-4839-9FBE-C8BCE1324749}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Beampointing_PicoBooster</Property>

@@ -484,7 +484,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3C797C03-DE45-4731-9C14-BEC35D39A6A5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0E34528F-FD3D-4F2D-8938-BC7D0A65DFA7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_kHz_Control_Center.vi</Property>
