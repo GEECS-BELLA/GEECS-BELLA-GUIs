@@ -48,7 +48,7 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="GUI_HTT_CTRLv4.vi" Type="VI" URL="../GUI_HTT_CTRLv4.vi"/>
+		<Item Name="GUI_HTT_CTRLv5.vi" Type="VI" URL="../GUI_HTT_CTRLv5.vi"/>
 		<Item Name="Icon.ico" Type="Document" URL="../Icon.ico"/>
 		<Item Name="Run Program.vi" Type="VI" URL="../Run Program.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -515,7 +515,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_HTT_CTRL</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CF6F0D07-F3AB-4162-B27C-DD743DB81B62}</Property>
-				<Property Name="Bld_version.build" Type="Int">34</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI_HTT_CTRL.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_HTT_CTRL/GUI_HTT_CTRL.exe</Property>
@@ -527,7 +527,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{86A3B039-DE16-4394-8F6C-D61E18E3F007}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8C2660FA-73D1-42D6-97B2-B989568555E4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Run Program.vi</Property>
@@ -552,7 +552,7 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Icon.ico</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/GUI_HTT_CTRLv4.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/GUI_HTT_CTRLv5.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>

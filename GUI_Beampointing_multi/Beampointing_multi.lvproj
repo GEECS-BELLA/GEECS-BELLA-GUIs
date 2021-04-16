@@ -17,6 +17,7 @@
 		<Item Name="Beampointing_BELLA_PICObooster2.vi" Type="VI" URL="../Beampointing_BELLA_PICObooster2.vi"/>
 		<Item Name="Beampointing_Multi_HTU_TRA_diode.vi" Type="VI" URL="../Beampointing_Multi_HTU_TRA_diode.vi"/>
 		<Item Name="Beampointing_Multi_Pico3.vi" Type="VI" URL="../Beampointing_Multi_Pico3.vi"/>
+		<Item Name="Beampointing_Multi_Pico3_HTT.vi" Type="VI" URL="../Beampointing_Multi_Pico3_HTT.vi"/>
 		<Item Name="Beampointing_Multi_Pico3_upstairs01.vi" Type="VI" URL="../Beampointing_Multi_Pico3_upstairs01.vi"/>
 		<Item Name="Beampointing_Multi_TRA2.vi" Type="VI" URL="../Beampointing_Multi_TRA2.vi"/>
 		<Item Name="Beampointing_Multi_TRA2_BELLA_BTL.vi" Type="VI" URL="../Beampointing_Multi_TRA2_BELLA_BTL.vi"/>
@@ -349,7 +350,6 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
