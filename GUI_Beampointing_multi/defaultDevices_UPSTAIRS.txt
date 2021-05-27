@@ -4,7 +4,6 @@ xpw-out-cam
 amp0-out-cam
 preamp-in-cam
 preamp-2nd-pass-cam
-compressor-in-cam
 compressor-out-cam
 
 
