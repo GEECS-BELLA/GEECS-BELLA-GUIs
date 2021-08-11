@@ -15,6 +15,7 @@
 		</Item>
 		<Item Name="GUI_Tape_Alignment.vi" Type="VI" URL="../GUI_Tape_Alignment.vi"/>
 		<Item Name="GUI_TapeDrive.vi" Type="VI" URL="../GUI_TapeDrive.vi"/>
+		<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../send udp and wait for slow response.vi"/>
 		<Item Name="udp send test.vi" Type="VI" URL="../../../Shared/udp send test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -381,6 +382,7 @@
 			<Item Name="GUIDeviceInfo_TypDEf.ctl" Type="VI" URL="../../../Shared/Device Driver/GUIDeviceInfo_TypDEf.ctl"/>
 			<Item Name="imagebitDepth.vi" Type="VI" URL="../../../General GUIs/shared/imagebitDepth.vi"/>
 			<Item Name="IsControlNull.vi" Type="VI" URL="../../../General GUIs/shared/IsControlNull.vi"/>
+			<Item Name="Listen to slow UDP and parse error.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error.vi"/>
 			<Item Name="Listen to slow UDP and parse error_in sendCommand.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error_in sendCommand.vi"/>
 			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
 			<Item Name="lv_mysql_conn_close.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_close.vi"/>
