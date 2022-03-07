@@ -487,7 +487,7 @@
 			<Item Name="writeError.vi" Type="VI" URL="../../../General GUIs/shared/writeError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="GUI_HTT_CTRL" Type="EXE">
+			<Item Name="GUI_HTT_RepRate" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{89E02C8C-6C17-4A0D-AF99-B84B0F3C4BBA}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{C468FFEE-9808-4C2D-8260-DCB34FB37EC3}</Property>
@@ -495,26 +495,26 @@
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1CD1969E-955D-4C2C-9AD2-C429A8BBCA80}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">GUI_HTT_CTRL</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_HTT_RepRate</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_HTT_CTRL</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_HTT_RepRate</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CF6F0D07-F3AB-4162-B27C-DD743DB81B62}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">GUI_HTT_CTRL.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_HTT_CTRL/GUI_HTT_CTRL.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_HTT_RepRate.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_HTT_RepRate/GUI_HTT_RepRate.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_HTT_CTRL/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_HTT_RepRate/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7CFD6DB9-D611-45B3-8EA8-638F9924A92A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BC916319-6D43-48C1-8FAC-781055FA0186}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Run Program.vi</Property>
@@ -544,12 +544,12 @@
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">GUI_HTT_CTRL</Property>
-				<Property Name="TgtF_internalName" Type="Str">GUI_HTT_CTRL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_HTT_RepRate</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_HTT_RepRate</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 LBNL</Property>
-				<Property Name="TgtF_productName" Type="Str">GUI_HTT_CTRL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_HTT_RepRate</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5C70E9B8-7E9A-4987-94D9-6ABDF780FC87}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">GUI_HTT_CTRL.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_HTT_RepRate.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
