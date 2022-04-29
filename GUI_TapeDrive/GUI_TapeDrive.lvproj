@@ -508,6 +508,54 @@
 			<Item Name="writeError.vi" Type="VI" URL="../../../General GUIs/shared/writeError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="GUI_TapeAligner" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E9B3E501-64F2-45FD-8051-69128A3291C4}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{BC41017F-4D25-445E-BCD5-09A95EDC762A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{956AF1C8-2579-42A7-84C4-F59C6FDBA4F7}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_TapeAligner</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_TapeAligner</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DEAAA2B9-D973-4BE5-893D-F01B895F44F2}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_TapeAligner.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_TapeAligner/GUI_TapeAligner.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_TapeAligner/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{40CB3295-640B-4082-88A6-1AA2B17A5D9A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_TapeDrive.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_Tape_Alignment.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_TapeDrive</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_TapeDrive</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_TapeDrive</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4E17D77A-3CC3-467F-BFB8-A83D5BE4D2BD}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_TapeAligner.exe</Property>
+			</Item>
 			<Item Name="GUI_TapeDrive" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{842BC513-731F-4138-9CE3-0F8337FF7A6C}</Property>
