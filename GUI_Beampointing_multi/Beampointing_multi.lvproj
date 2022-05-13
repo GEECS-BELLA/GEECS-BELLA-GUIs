@@ -14,7 +14,7 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Beampointing_Multi_TRA2_BELLA_BTL.vi" Type="VI" URL="../Beampointing_Multi_TRA2_BELLA_BTL.vi"/>
+		<Item Name="Beampointing_ajgEdit.vi" Type="VI" URL="../Beampointing_ajgEdit.vi"/>
 		<Item Name="Beampointing_BELLA_heater.vi" Type="VI" URL="../Beampointing_BELLA_heater.vi"/>
 		<Item Name="Beampointing_BELLA_PICObooster2.vi" Type="VI" URL="../Beampointing_BELLA_PICObooster2.vi"/>
 		<Item Name="Beampointing_Multi_HTU_TRA_diode.vi" Type="VI" URL="../Beampointing_Multi_HTU_TRA_diode.vi"/>
@@ -34,6 +34,7 @@
 		<Item Name="sendCommandAndListen.vi" Type="VI" URL="../../../Shared/sendCommandAndListen.vi"/>
 		<Item Name="speedmode.vi" Type="VI" URL="../speedmode.vi"/>
 		<Item Name="TDMSbuffersize.vi" Type="VI" URL="../TDMSbuffersize.vi"/>
+		<Item Name="motor cfg.ctl" Type="VI" URL="../Ctrs/motor cfg.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -725,7 +726,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{439ACB17-37E8-48EF-8FB6-5894E22CA1CC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Beampointing_Multi_TRA2_BELLA_BTL.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Beampointing_ajgEdit.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/send command.vi</Property>
