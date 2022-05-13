@@ -67,7 +67,7 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="GUI_HTU_Vacuum.vi" Type="VI" URL="../GUI_HTU_Vacuum.vi"/>
+		<Item Name="GUI_HTU_Laser_Control_Center.vi" Type="VI" URL="../GUI_HTU_Laser_Control_Center.vi"/>
 		<Item Name="GUI_ICON.ico" Type="Document" URL="../../GUI_HTU_Control/GUI_ICON.ico"/>
 		<Item Name="pressure calibration.vi" Type="VI" URL="../pressure calibration.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -102,6 +102,8 @@
 				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
@@ -334,8 +336,6 @@
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
-				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
-				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
@@ -440,6 +440,7 @@
 			<Item Name="OnOffTypeDef.ctl" Type="VI" URL="../../../../../Device Driver/shared/OnOffTypeDef.ctl"/>
 			<Item Name="energyCalibTypdef.ctl" Type="VI" URL="../../../../../Device Driver/StagingAnalysis/SubVis/energyCalibTypdef.ctl"/>
 			<Item Name="TwoPieceModel_not conti.vi" Type="VI" URL="../../../../../Device Driver/StagingAnalysis/SubVis/SubVi/TwoPieceModel_not conti.vi"/>
+			<Item Name="Fire button.ctl" Type="VI" URL="../../GUI_TestStand/Fire button.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="GetDevaultValues.vi" Type="VI" URL="../../../../../Device Driver/BaseDriver/GetDevaultValues.vi"/>
 			<Item Name="getTapControls.vi" Type="VI" URL="../../../General GUIs/shared/getTapControls.vi"/>
@@ -568,26 +569,25 @@
 			<Item Name="fistCallFGV.vi" Type="VI" URL="../../../General GUIs/General-Controler/fistCallFGV.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="GUI_HTU_Vacuum" Type="EXE">
+			<Item Name="GUI_HTU_Control_Center" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{9220FFF4-4D91-4CF8-B259-D7CACC0AED99}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{6D5339BD-D2C3-4179-B937-22928FACF148}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9A2D6944-44CC-4E4B-AD5D-1D39552C72FE}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EDD43D64-2CC7-403E-AA53-725429071995}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{96B9A315-EC09-4862-8492-C802865451AB}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">GUI_HTU_Vacuum</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8B5A6D5C-C513-4A61-A7B7-F5BDC07094D5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_HTU_Control_Center</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9FE14049-8B7F-4B1C-8234-D4A0F02B0721}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9CB13BF9-2016-4E8F-B547-06CA44EE0BB1}</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">GUI_HTU_Vacuum.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/GUI_HTU_Vacuum.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_HTU_Control_Center.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/GUI_HTU_Control_Center.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -595,10 +595,11 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F33F9AE3-2FA6-4D56-834C-3794DC9AAF9C}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_ICON.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{86A50B96-F1A6-44CC-BB2C-DEDA3B88FEAD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_HTU_Vacuum.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_HTU_Laser_Control_Center.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
@@ -606,17 +607,14 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/pressure calibration.vi</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">GUI_HTU_Vacuum</Property>
-				<Property Name="TgtF_internalName" Type="Str">GUI_HTU_Vacuum</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 LBNL</Property>
-				<Property Name="TgtF_productName" Type="Str">GUI_HTU_Vacuum</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{85EA55E8-36C2-4DD5-BCB8-6D7A6315B78E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">GUI_HTU_Vacuum.exe</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_HTU_Control_Center</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_HTU_Control_Center</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_HTU_Control_Center</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{93B3B5E2-96E6-47F4-822C-95F9220C44C6}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_HTU_Control_Center.exe</Property>
 			</Item>
 		</Item>
 	</Item>
