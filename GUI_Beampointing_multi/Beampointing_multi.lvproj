@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,6 +14,7 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Beampointing_Multi_TRA2_BELLA_BTL.vi" Type="VI" URL="../Beampointing_Multi_TRA2_BELLA_BTL.vi"/>
 		<Item Name="Beampointing_BELLA_heater.vi" Type="VI" URL="../Beampointing_BELLA_heater.vi"/>
 		<Item Name="Beampointing_BELLA_PICObooster2.vi" Type="VI" URL="../Beampointing_BELLA_PICObooster2.vi"/>
 		<Item Name="Beampointing_Multi_HTU_TRA_diode.vi" Type="VI" URL="../Beampointing_Multi_HTU_TRA_diode.vi"/>
@@ -20,7 +22,6 @@
 		<Item Name="Beampointing_Multi_Pico3_HTT.vi" Type="VI" URL="../Beampointing_Multi_Pico3_HTT.vi"/>
 		<Item Name="Beampointing_Multi_Pico3_upstairs01.vi" Type="VI" URL="../Beampointing_Multi_Pico3_upstairs01.vi"/>
 		<Item Name="Beampointing_Multi_TRA2.vi" Type="VI" URL="../Beampointing_Multi_TRA2.vi"/>
-		<Item Name="Beampointing_Multi_TRA2_BELLA_BTL.vi" Type="VI" URL="../Beampointing_Multi_TRA2_BELLA_BTL.vi"/>
 		<Item Name="bp.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp.ico"/>
 		<Item Name="bp_red.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp_red.ico"/>
 		<Item Name="CENTRIOD DETECTION.vi" Type="VI" URL="../CENTRIOD DETECTION.vi"/>
