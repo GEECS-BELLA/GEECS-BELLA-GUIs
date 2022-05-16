@@ -39,6 +39,7 @@
 		<Item Name="BP configuration.ctl" Type="VI" URL="../Ctrs/BP configuration.ctl"/>
 		<Item Name="get all aliases of a class.vi" Type="VI" URL="../../../Shared/MySQL/get all aliases of a class.vi"/>
 		<Item Name="Beampointing get set motor position.vi" Type="VI" URL="../Beampointing get set motor position.vi"/>
+		<Item Name="3dlb-3d-Vol2-Target.ico" Type="Document" URL="../3dlb-3d-Vol2-Target.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -341,6 +342,13 @@
 				<Item Name="MGI RWA String To Anything.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA String To Anything.vi"/>
 				<Item Name="MGI RWA Read Strings from File.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI RWA Read Strings from File.vi"/>
 				<Item Name="MGI Read Anything.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Read Write Anything/MGI Read Anything.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
+				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -445,6 +453,7 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
+				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 			</Item>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
@@ -567,70 +576,45 @@
 			<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../../GUI_TapeDrive/send udp and wait for slow response.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="BeamPointing_Multi_TRA" Type="EXE">
+			<Item Name="BeamPointing" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{DC3C259F-DD7D-4656-AB6F-53E16AE58750}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B37B7B63-E074-4720-B025-11D8F93FDD16}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{58281600-1290-4DC8-9708-342A3E891FC4}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">BeamPointing_Multi_TRA</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">BeamPointing</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/GUIs/GUI_Beampointing_TRA</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_BeamPointing</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4ED81F4A-1ED1-4ED5-97A5-4D7B4ECF621C}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">BeamPointing_Multi_TRA.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/GUIs/GUI_Beampointing_TRA/BeamPointing_Multi_TRA.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">BeamPointing.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_BeamPointing/BeamPointing.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/GUIs/GUI_Beampointing_TRA/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/GUI_BeamPointing/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/bp_red.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{02BAD136-DA0E-4E77-AD74-5EE38649F742}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/3dlb-3d-Vol2-Target.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F3AF4AA3-FD06-4574-B9BB-F9EC17EFC9CF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Beampointing_Multi_TRA2.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref"></Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Beampointing_ajgEdit.vi</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref"></Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/GUI_Template</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/send command.vi</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref"></Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref"></Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref"></Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/bp_red.ico</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/TDMSbuffersize.vi</Property>
-				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/get controls from tab.vi</Property>
-				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/bp.ico</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -638,37 +622,36 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/draw box imaq.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/draw box imaq.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/getMotorNames.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/getMotorNames.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/send command.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/bp_red.ico</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/TDMSbuffersize.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/get controls from tab.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">19</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">BeamPointing_Multi_TRA</Property>
-				<Property Name="TgtF_internalName" Type="Str">BeamPointing_Multi_TRA</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">BeamPointing</Property>
+				<Property Name="TgtF_internalName" Type="Str">BeamPointing</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 LBNL</Property>
-				<Property Name="TgtF_productName" Type="Str">BeamPointing_Multi_TRA</Property>
+				<Property Name="TgtF_productName" Type="Str">BeamPointing</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C98F0BE7-7777-411A-949D-890B78DCD106}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">BeamPointing_Multi_TRA.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">BeamPointing.exe</Property>
 			</Item>
 			<Item Name="GUI_BeamPointing_Heater" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
