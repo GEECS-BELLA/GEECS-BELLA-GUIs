@@ -14,14 +14,17 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Beampointing_ajgEdit.vi" Type="VI" URL="../Beampointing_ajgEdit.vi"/>
-		<Item Name="Beampointing_BELLA_heater.vi" Type="VI" URL="../Beampointing_BELLA_heater.vi"/>
-		<Item Name="Beampointing_BELLA_PICObooster2.vi" Type="VI" URL="../Beampointing_BELLA_PICObooster2.vi"/>
-		<Item Name="Beampointing_Multi_HTU_TRA_diode.vi" Type="VI" URL="../Beampointing_Multi_HTU_TRA_diode.vi"/>
-		<Item Name="Beampointing_Multi_Pico3.vi" Type="VI" URL="../Beampointing_Multi_Pico3.vi"/>
-		<Item Name="Beampointing_Multi_Pico3_HTT.vi" Type="VI" URL="../Beampointing_Multi_Pico3_HTT.vi"/>
-		<Item Name="Beampointing_Multi_Pico3_upstairs01.vi" Type="VI" URL="../Beampointing_Multi_Pico3_upstairs01.vi"/>
-		<Item Name="Beampointing_Multi_TRA2.vi" Type="VI" URL="../Beampointing_Multi_TRA2.vi"/>
+		<Item Name="obsolete" Type="Folder">
+			<Item Name="Beampointing_ajgEditObsolete.vi" Type="VI" URL="../Beampointing_ajgEditObsolete.vi"/>
+			<Item Name="Beampointing_BELLA_heater.vi" Type="VI" URL="../Beampointing_BELLA_heater.vi"/>
+			<Item Name="Beampointing_BELLA_PICObooster2.vi" Type="VI" URL="../Beampointing_BELLA_PICObooster2.vi"/>
+			<Item Name="Beampointing_Multi_HTU_TRA_diode.vi" Type="VI" URL="../Beampointing_Multi_HTU_TRA_diode.vi"/>
+			<Item Name="Beampointing_Multi_Pico3.vi" Type="VI" URL="../Beampointing_Multi_Pico3.vi"/>
+			<Item Name="Beampointing_Multi_Pico3_HTT.vi" Type="VI" URL="../Beampointing_Multi_Pico3_HTT.vi"/>
+			<Item Name="Beampointing_Multi_Pico3_upstairs01.vi" Type="VI" URL="../Beampointing_Multi_Pico3_upstairs01.vi"/>
+			<Item Name="Beampointing_Multi_TRA2.vi" Type="VI" URL="../Beampointing_Multi_TRA2.vi"/>
+		</Item>
+		<Item Name="Beampointing.vi" Type="VI" URL="../Beampointing.vi"/>
 		<Item Name="bp.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp.ico"/>
 		<Item Name="bp_red.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp_red.ico"/>
 		<Item Name="CENTRIOD DETECTION.vi" Type="VI" URL="../CENTRIOD DETECTION.vi"/>
@@ -40,6 +43,7 @@
 		<Item Name="get all aliases of a class.vi" Type="VI" URL="../../../Shared/MySQL/get all aliases of a class.vi"/>
 		<Item Name="Beampointing get set motor position.vi" Type="VI" URL="../Beampointing get set motor position.vi"/>
 		<Item Name="3dlb-3d-Vol2-Target.ico" Type="Document" URL="../3dlb-3d-Vol2-Target.ico"/>
+		<Item Name="get set udp value from dev var alias array.vi" Type="VI" URL="../../../Shared/get set udp value from dev var alias array.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -349,6 +353,9 @@
 				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
 				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
 				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
+				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
+				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
+				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -574,6 +581,7 @@
 			</Item>
 			<Item Name="Listen to slow UDP and parse error.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error.vi"/>
 			<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../../GUI_TapeDrive/send udp and wait for slow response.vi"/>
+			<Item Name="close fgv udp connections.vi" Type="VI" URL="../../../General GUIs/shared/send command for users/close fgv udp connections.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BeamPointing" Type="EXE">
@@ -600,14 +608,13 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/3dlb-3d-Vol2-Target.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F3AF4AA3-FD06-4574-B9BB-F9EC17EFC9CF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{67D3332B-C798-45E3-91A2-3789170F3483}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Beampointing_Multi_TRA2.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/obsolete/Beampointing_Multi_TRA2.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Beampointing_ajgEdit.vi</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/obsolete/Beampointing_ajgEditObsolete.vi</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
@@ -615,6 +622,10 @@
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/GUI_Template</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Beampointing.vi</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/bp.ico</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -644,7 +655,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/get controls from tab.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">BeamPointing</Property>
 				<Property Name="TgtF_internalName" Type="Str">BeamPointing</Property>
@@ -683,7 +694,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E6EFA132-8476-48D8-A2D0-A462B85745A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Beampointing_BELLA_heater.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/obsolete/Beampointing_BELLA_heater.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
@@ -763,7 +774,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{439ACB17-37E8-48EF-8FB6-5894E22CA1CC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Beampointing_ajgEdit.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/obsolete/Beampointing_ajgEditObsolete.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/send command.vi</Property>
@@ -775,7 +786,7 @@
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Beampointing_Multi_HTU_TRA_diode.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/obsolete/Beampointing_Multi_HTU_TRA_diode.vi</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -843,7 +854,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{2DE5F3AE-D3EF-471B-8EBD-63BEED89E655}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Beampointing_Multi_TRA2.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/obsolete/Beampointing_Multi_TRA2.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/draw box imaq.vi</Property>
@@ -877,7 +888,7 @@
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Beampointing_Multi_Pico3.vi</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/obsolete/Beampointing_Multi_Pico3.vi</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -976,7 +987,7 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Beampointing_Multi_Pico3_upstairs01.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/obsolete/Beampointing_Multi_Pico3_upstairs01.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
@@ -1059,7 +1070,7 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Beampointing_BELLA_PICObooster2.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/obsolete/Beampointing_BELLA_PICObooster2.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">11</Property>
