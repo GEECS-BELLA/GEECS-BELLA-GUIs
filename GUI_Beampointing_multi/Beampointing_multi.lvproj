@@ -44,6 +44,7 @@
 		<Item Name="Beampointing get set motor position.vi" Type="VI" URL="../Beampointing get set motor position.vi"/>
 		<Item Name="3dlb-3d-Vol2-Target.ico" Type="Document" URL="../3dlb-3d-Vol2-Target.ico"/>
 		<Item Name="get set udp value from dev var alias array.vi" Type="VI" URL="../../../Shared/get set udp value from dev var alias array.vi"/>
+		<Item Name="centroid detection loop.vi" Type="VI" URL="../centroid detection loop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
