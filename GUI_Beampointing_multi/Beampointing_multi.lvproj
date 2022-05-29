@@ -584,6 +584,14 @@
 			<Item Name="Listen to slow UDP and parse error.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error.vi"/>
 			<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../../GUI_TapeDrive/send udp and wait for slow response.vi"/>
 			<Item Name="close fgv udp connections.vi" Type="VI" URL="../../../General GUIs/shared/send command for users/close fgv udp connections.vi"/>
+			<Item Name="Beampointing get motor position tcp.vi" Type="VI" URL="../Beampointing get motor position tcp.vi"/>
+			<Item Name="GEECS tcp open single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp open single variable.vi"/>
+			<Item Name="create udp send cluster.vi" Type="VI" URL="../../../General GUIs/General-Controler/create udp send cluster.vi"/>
+			<Item Name="UDP send cluster.ctl" Type="VI" URL="../../../General GUIs/General-Controler/UDP send cluster.ctl"/>
+			<Item Name="tcp open connection from subscription messag.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/tcp open connection from subscription messag.vi"/>
+			<Item Name="GEECS tcp read single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp read single variable.vi"/>
+			<Item Name="GEECS tcp parse single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp parse single variable.vi"/>
+			<Item Name="get variable value from udp get response.vi" Type="VI" URL="../../../General GUIs/General-Controler/get variable value from udp get response.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BeamPointing" Type="EXE">
