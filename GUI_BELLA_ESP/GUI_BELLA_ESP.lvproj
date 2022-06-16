@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -301,7 +301,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -346,6 +345,7 @@
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			</Item>
 			<Item Name="TemplateMenu.rtm" Type="Document" URL="../../GUI_Template/Developers Version/Interface/GUI_Template/TemplateMenu.rtm"/>
 			<Item Name="getTapControls.vi" Type="VI" URL="../../../General GUIs/shared/getTapControls.vi"/>
@@ -450,6 +450,7 @@
 			<Item Name="get ip ports and subscribe commands for expt tcp data.vi" Type="VI" URL="../../../General GUIs/General-Controler/get ip ports and subscribe commands for expt tcp data.vi"/>
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_ESP" Type="EXE">
@@ -457,6 +458,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{7015583F-BD3C-4191-9D71-C32B7F1A3E67}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D7106E64-307E-41CE-8FA6-6A57ABDC6E91}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E0B74892-1851-4874-9B56-7DA6A9C94BFA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_ESP</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -476,7 +478,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EBE9C4C0-AD57-41AC-BE28-330624A28D6D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8EB2FBAD-E2D2-4BA8-A86A-EBAEB34D17CF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_BELLA_ESP.vi</Property>
