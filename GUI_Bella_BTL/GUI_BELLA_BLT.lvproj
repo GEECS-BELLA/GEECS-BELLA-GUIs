@@ -73,29 +73,29 @@
 		<Item Name="GUI_Bella_BTLsmall_nocams.vi" Type="VI" URL="../GUI_Bella_BTLsmall_nocams.vi"/>
 		<Item Name="GUI_Bella_FilterWheels_All.vi" Type="VI" URL="../GUI_Bella_FilterWheels_All.vi"/>
 		<Item Name="GUI_Bella_BTL_timed.vi" Type="VI" URL="../GUI_Bella_BTL_timed.vi"/>
+		<Item Name="GUI_Bella_Laser.vi" Type="VI" URL="../GUI_Bella_Laser.vi"/>
+		<Item Name="GUI_Bella_GAIAs.vi" Type="VI" URL="../GUI_Bella_GAIAs.vi"/>
+		<Item Name="GUI_Bella_Laser_separate_graphs.vi" Type="VI" URL="../GUI_Bella_Laser_separate_graphs.vi"/>
+		<Item Name="GUI_map_image_parser.vi" Type="VI" URL="../GUI_map_image_parser.vi"/>
+		<Item Name="GUI_Bella_Control_Center-ForShowOnly.vi" Type="VI" URL="../GUI_Bella_Control_Center-ForShowOnly.vi"/>
+		<Item Name="GUI_Capillary_Transverse_Diagnostics.vi" Type="VI" URL="../GUI_Capillary_Transverse_Diagnostics.vi"/>
 		<Item Name="GUI_Bella_BTL.ico" Type="Document" URL="../GUI_Bella_BTL.ico"/>
 		<Item Name="Down.ctl" Type="VI" URL="../Down.ctl"/>
 		<Item Name="Left.ctl" Type="VI" URL="../Left.ctl"/>
 		<Item Name="up.ctl" Type="VI" URL="../up.ctl"/>
 		<Item Name="Right.ctl" Type="VI" URL="../Right.ctl"/>
 		<Item Name="is image ready for update.vi" Type="VI" URL="../is image ready for update.vi"/>
-		<Item Name="GUI_map_image_parser.vi" Type="VI" URL="../GUI_map_image_parser.vi"/>
 		<Item Name="right small.ctl" Type="VI" URL="../right small.ctl"/>
 		<Item Name="down small.ctl" Type="VI" URL="../down small.ctl"/>
 		<Item Name="up small.ctl" Type="VI" URL="../up small.ctl"/>
 		<Item Name="left small.ctl" Type="VI" URL="../left small.ctl"/>
 		<Item Name="BellaBeamLine.vi" Type="VI" URL="../BellaBeamLine.vi"/>
 		<Item Name="BellaBeamLine2.vi" Type="VI" URL="../BellaBeamLine2.vi"/>
-		<Item Name="GUI_Bella_Laser.vi" Type="VI" URL="../GUI_Bella_Laser.vi"/>
-		<Item Name="GUI_Bella_Laser_separate_graphs.vi" Type="VI" URL="../GUI_Bella_Laser_separate_graphs.vi"/>
 		<Item Name="gnome_control_center.ico" Type="Document" URL="../gnome_control_center.ico"/>
 		<Item Name="graph.ico" Type="Document" URL="../graph.ico"/>
 		<Item Name="GUI_Bella_BTL2.ico" Type="Document" URL="../GUI_Bella_BTL2.ico"/>
-		<Item Name="GUI_Bella_Control_Center-ForShowOnly.vi" Type="VI" URL="../GUI_Bella_Control_Center-ForShowOnly.vi"/>
-		<Item Name="GUI_Bella_GAIAs.vi" Type="VI" URL="../GUI_Bella_GAIAs.vi"/>
 		<Item Name="Controls_pico8752.ctl" Type="VI" URL="../Controls_pico8752.ctl"/>
 		<Item Name="Hexapod1check.vi" Type="VI" URL="../../GUI_HPDMAP/Hexapod1check.vi"/>
-		<Item Name="GUI_Capillary_Transverse_Diagnostics.vi" Type="VI" URL="../GUI_Capillary_Transverse_Diagnostics.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>

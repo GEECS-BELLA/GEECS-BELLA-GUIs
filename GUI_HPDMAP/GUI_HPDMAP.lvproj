@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -304,7 +304,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -345,6 +344,7 @@
 				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -448,6 +448,7 @@
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
 			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_HPDMAP" Type="EXE">
@@ -455,6 +456,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{F1AC8808-CC04-422D-A71D-B24FDD0093B5}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{BF428355-0730-4692-BF08-DFACFF272466}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{08341E9D-4EB4-4467-B9A1-416C0C920C09}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_HPDMAP</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -474,7 +476,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/stages.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AA73E027-BFAA-4571-9315-685B95B6A532}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0A12344D-2211-43F4-B031-56BE05DA88C1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_HPDMAP2.vi</Property>
