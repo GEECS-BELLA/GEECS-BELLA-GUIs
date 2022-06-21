@@ -366,6 +366,7 @@
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
 			</Item>
+			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
 			<Item Name="tcp new data cluster.ctl" Type="VI" URL="../../../Shared/GUI_Template/GUI_master/tcp new data cluster.ctl"/>
 			<Item Name="tcp_new_data_event.ctl" Type="VI" URL="../../../Shared/GUI_Template/GUI_master/tcp_new_data_event.ctl"/>
 			<Item Name="set vi panel position.vi" Type="VI" URL="../../../General GUIs/shared/set vi panel position.vi"/>
@@ -492,7 +493,6 @@
 			<Item Name="RingValueFromString.vi" Type="VI" URL="../../../Shared/Device Driver/UtilsLib/Rings/RingValueFromString.vi"/>
 			<Item Name="testSUBVIS_TOBEREPLACED.vi" Type="VI" URL="../../../Shared/GUI_Template/testSUBVIS_TOBEREPLACED.vi"/>
 			<Item Name="create event queue.vi" Type="VI" URL="../../../Shared/GUI_Template/GUI_master/create event queue.vi"/>
-			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_CapillaryDischarge" Type="EXE">
