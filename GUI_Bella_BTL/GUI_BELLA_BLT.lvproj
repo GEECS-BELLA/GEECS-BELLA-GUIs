@@ -483,7 +483,7 @@
 			<Item Name="add values to xy graph 10 plots.vi" Type="VI" URL="../../../General GUIs/shared/add values to xy graph 10 plots.vi"/>
 			<Item Name="add values to xy graph 2 plots.vi" Type="VI" URL="../../../../General/shared/add values to xy graph 2 plots.vi"/>
 			<Item Name="decimate multiple graphs.vi" Type="VI" URL="../../shared/decimate multiple graphs.vi"/>
-			<Item Name="add values to xy graph 24 plots.vi" Type="VI" URL="../../../../General/shared/add values to xy graph 24 plots.vi"/>
+			<Item Name="add values to xy graph 24 plots.vi" Type="VI" URL="../../../General GUIs/shared/add values to xy graph 24 plots.vi"/>
 			<Item Name="get info from core device data.vi" Type="VI" URL="../../../General GUIs/General-Controler/get info from core device data.vi"/>
 			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
 			<Item Name="preset SQL Queries.vi" Type="VI" URL="../../../Shared/MySQL/preset SQL Queries.vi"/>
