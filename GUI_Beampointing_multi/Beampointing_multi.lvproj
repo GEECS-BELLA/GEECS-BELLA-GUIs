@@ -24,7 +24,6 @@
 			<Item Name="Beampointing_Multi_Pico3_upstairs01.vi" Type="VI" URL="../Beampointing_Multi_Pico3_upstairs01.vi"/>
 			<Item Name="Beampointing_Multi_TRA2.vi" Type="VI" URL="../Beampointing_Multi_TRA2.vi"/>
 		</Item>
-		<Item Name="Beampointing.vi" Type="VI" URL="../Beampointing.vi"/>
 		<Item Name="bp.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp.ico"/>
 		<Item Name="bp_red.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp_red.ico"/>
 		<Item Name="CENTRIOD DETECTION.vi" Type="VI" URL="../CENTRIOD DETECTION.vi"/>
@@ -47,6 +46,9 @@
 		<Item Name="centroid detection loop.vi" Type="VI" URL="../centroid detection loop.vi"/>
 		<Item Name="Detection all.ctl" Type="VI" URL="../Ctrs/Detection all.ctl"/>
 		<Item Name="relative move from offset and calibration.vi" Type="VI" URL="../relative move from offset and calibration.vi"/>
+		<Item Name="Beampointing.vi" Type="VI" URL="../Beampointing.vi"/>
+		<Item Name="coupled mirror calibration.vi" Type="VI" URL="../coupled mirror calibration.vi"/>
+		<Item Name="thresholds.ctl" Type="VI" URL="../Ctrs/thresholds.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -593,6 +595,14 @@
 			<Item Name="GEECS tcp read single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp read single variable.vi"/>
 			<Item Name="GEECS tcp parse single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp parse single variable.vi"/>
 			<Item Name="get variable value from udp get response.vi" Type="VI" URL="../../../General GUIs/General-Controler/get variable value from udp get response.vi"/>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General GUIs/General-Controler/Launch TCP data clients.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/Get all devices core info.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../../General GUIs/General-Controler/array to strings and values for ring.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BeamPointing" Type="EXE">
@@ -619,7 +629,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/3dlb-3d-Vol2-Target.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{67D3332B-C798-45E3-91A2-3789170F3483}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A84716DD-5951-45E3-9114-5057A634AC85}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/obsolete/Beampointing_Multi_TRA2.vi</Property>
