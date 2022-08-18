@@ -15,6 +15,7 @@
 		</Item>
 		<Item Name="GUI_Tape_Alignment.vi" Type="VI" URL="../GUI_Tape_Alignment.vi"/>
 		<Item Name="GUI_TapeDrive.vi" Type="VI" URL="../GUI_TapeDrive.vi"/>
+		<Item Name="GUI_TapeDrive2.vi" Type="VI" URL="../GUI_TapeDrive2.vi"/>
 		<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../send udp and wait for slow response.vi"/>
 		<Item Name="udp send test.vi" Type="VI" URL="../../../Shared/udp send test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -24,6 +25,7 @@
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
 				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CSG)__ogtk.vi"/>
@@ -102,6 +104,7 @@
 				<Item Name="Filter 1D Array with Scalar (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U64)__ogtk.vi"/>
 				<Item Name="Filter 1D Array with Scalar (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (Variant)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
 				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
@@ -397,6 +400,7 @@
 			</Item>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../../General GUIs/General-Controler/array to strings and values for ring.vi"/>
 			<Item Name="ByteToVariant.vi" Type="VI" URL="../../../Shared/MySQL/ByteToVariant.vi"/>
 			<Item Name="ChnageControlLimits.vi" Type="VI" URL="../../../Shared/Device Driver/ChnageControlLimits.vi"/>
 			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
@@ -405,13 +409,16 @@
 			<Item Name="CreateError.vi" Type="VI" URL="../../../Device Drivers/shared/CreateError.vi"/>
 			<Item Name="database configuration.ctl" Type="VI" URL="../../../Shared/MySQL/database configuration.ctl"/>
 			<Item Name="DataUpdateFrame.vi" Type="VI" URL="../../../Shared/Device Driver/DataUpdateFrame.vi"/>
+			<Item Name="Direction_TypDef.ctl" Type="VI" URL="../../../Device Drivers/TapeDrive/Direction_TypDef.ctl"/>
 			<Item Name="enableEnumItems.vi" Type="VI" URL="../../../Shared/Device Driver/enableEnumItems.vi"/>
 			<Item Name="FastSlowFGV.vi" Type="VI" URL="../../../General GUIs/shared/FastSlowFGV.vi"/>
 			<Item Name="GenerateControlUpdateQueue.vi" Type="VI" URL="../../../Shared/Device Driver/GenerateControlUpdateQueue.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
 			<Item Name="GenerateQueues.vi" Type="VI" URL="../../../Shared/Device Driver/GenerateQueues.vi"/>
 			<Item Name="generateStopQueue.vi" Type="VI" URL="../../../Shared/Device Driver/generateStopQueue.vi"/>
 			<Item Name="generateTCPDataQueue.vi" Type="VI" URL="../../../Shared/Device Driver/generateTCPDataQueue.vi"/>
 			<Item Name="genUDPQueue.vi" Type="VI" URL="../../../Shared/Device Driver/genUDPQueue.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/Get all devices core info.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
 			<Item Name="Get Cluster Element by Name__ogtk_TS.vi" Type="VI" URL="../../../Device Drivers/shared/Get Cluster Element by Name__ogtk_TS.vi"/>
 			<Item Name="Get Cluster Element Names__ogtk_TS.vi" Type="VI" URL="../../../Device Drivers/shared/Get Cluster Element Names__ogtk_TS.vi"/>
@@ -434,8 +441,13 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General GUIs/General-Controler/Launch TCP data clients.vi"/>
 			<Item Name="Listen to slow UDP and parse error.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error.vi"/>
 			<Item Name="Listen to slow UDP and parse error_in sendCommand.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error_in sendCommand.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
 			<Item Name="lv_mysql_conn_check_packet_type.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_check_packet_type.vi"/>
 			<Item Name="lv_mysql_conn_close.vi" Type="VI" URL="../../../Shared/MySQL/lv_mysql_conn_close.vi"/>
 			<Item Name="lv_mysql_conn_encrypt_passwd.vi" Type="VI" URL="../../../Shared/MySQL/subVIs/lv_mysql_conn_encrypt_passwd.vi"/>
@@ -582,11 +594,10 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{600E6479-F092-4AA9-B896-C29BE8EC91A9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FB452C2-9EF8-4684-AC6D-7FEF955228A6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_TapeDrive.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -594,7 +605,11 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_TapeDrive2.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GUI_TapeDrive</Property>
 				<Property Name="TgtF_internalName" Type="Str">GUI_TapeDrive</Property>
