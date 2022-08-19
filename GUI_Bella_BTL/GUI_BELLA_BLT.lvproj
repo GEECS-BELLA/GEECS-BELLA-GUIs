@@ -79,6 +79,7 @@
 		<Item Name="GUI_map_image_parser.vi" Type="VI" URL="../GUI_map_image_parser.vi"/>
 		<Item Name="GUI_Bella_Control_Center-ForShowOnly.vi" Type="VI" URL="../GUI_Bella_Control_Center-ForShowOnly.vi"/>
 		<Item Name="GUI_Capillary_Transverse_Diagnostics.vi" Type="VI" URL="../GUI_Capillary_Transverse_Diagnostics.vi"/>
+		<Item Name="GUI_Bella_2BLMap.vi" Type="VI" URL="../GUI_Bella_2BLMap.vi"/>
 		<Item Name="GUI_Bella_BTL.ico" Type="Document" URL="../GUI_Bella_BTL.ico"/>
 		<Item Name="Down.ctl" Type="VI" URL="../Down.ctl"/>
 		<Item Name="Left.ctl" Type="VI" URL="../Left.ctl"/>
