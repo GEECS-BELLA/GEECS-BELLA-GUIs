@@ -49,6 +49,7 @@
 		<Item Name="Beampointing.vi" Type="VI" URL="../Beampointing.vi"/>
 		<Item Name="coupled mirror calibration.vi" Type="VI" URL="../coupled mirror calibration.vi"/>
 		<Item Name="thresholds.ctl" Type="VI" URL="../Ctrs/thresholds.ctl"/>
+		<Item Name="Beampointing_sam_edit.vi" Type="VI" URL="../Beampointing_sam_edit.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
