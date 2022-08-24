@@ -1282,6 +1282,54 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{66B52F7B-8AED-4042-A3F9-128084DCA702}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI_MagSpecStitcher.exe</Property>
 			</Item>
+			<Item Name="GUI_Bella_2BLMap" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{B1DDB944-0222-4E5E-9F04-3C0D40982B87}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{2DECA6A9-1E58-41A7-878A-D7421A85EC4C}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{368B0785-D76B-4DFE-993E-74D77254FE84}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_2BLMap</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_2BLMap</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3C11FF71-6C43-4D8D-9F74-47A9F41B62E8}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_Bella_2BLMap.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_2BLMap/GUI_Bella_2BLMap.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_2BLMap/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0205D4E2-2052-4520-B4F1-B361A57C1446}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_Bella_2BLMap.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B104D2A4-DD29-4536-B1B9-D6D17F64DD3D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_Bella_2BLMap.exe</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
