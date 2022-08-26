@@ -24,6 +24,7 @@
 			<Item Name="Beampointing_Multi_Pico3_upstairs01.vi" Type="VI" URL="../Beampointing_Multi_Pico3_upstairs01.vi"/>
 			<Item Name="Beampointing_Multi_TRA2.vi" Type="VI" URL="../Beampointing_Multi_TRA2.vi"/>
 		</Item>
+		<Item Name="Beampointing.vi" Type="VI" URL="../Beampointing.vi"/>
 		<Item Name="bp.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp.ico"/>
 		<Item Name="bp_red.ico" Type="Document" URL="../../GUI_Beampointing_single_TRA/Ctrs/bp_red.ico"/>
 		<Item Name="CENTRIOD DETECTION.vi" Type="VI" URL="../CENTRIOD DETECTION.vi"/>
@@ -46,7 +47,6 @@
 		<Item Name="centroid detection loop.vi" Type="VI" URL="../centroid detection loop.vi"/>
 		<Item Name="Detection all.ctl" Type="VI" URL="../Ctrs/Detection all.ctl"/>
 		<Item Name="relative move from offset and calibration.vi" Type="VI" URL="../relative move from offset and calibration.vi"/>
-		<Item Name="Beampointing.vi" Type="VI" URL="../Beampointing.vi"/>
 		<Item Name="coupled mirror calibration.vi" Type="VI" URL="../coupled mirror calibration.vi"/>
 		<Item Name="thresholds.ctl" Type="VI" URL="../Ctrs/thresholds.ctl"/>
 		<Item Name="Beampointing_sam_edit.vi" Type="VI" URL="../Beampointing_sam_edit.vi"/>
