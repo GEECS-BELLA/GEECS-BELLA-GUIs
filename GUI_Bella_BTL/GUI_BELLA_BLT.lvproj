@@ -97,6 +97,7 @@
 		<Item Name="GUI_Bella_BTL2.ico" Type="Document" URL="../GUI_Bella_BTL2.ico"/>
 		<Item Name="Controls_pico8752.ctl" Type="VI" URL="../Controls_pico8752.ctl"/>
 		<Item Name="Hexapod1check.vi" Type="VI" URL="../../GUI_HPDMAP/Hexapod1check.vi"/>
+		<Item Name="Control 1.ctl" Type="VI" URL="../../GUI_BELLA_ESP/Control 1.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
