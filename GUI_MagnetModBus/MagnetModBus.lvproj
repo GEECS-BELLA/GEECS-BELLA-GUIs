@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="varPersistentID:{03503EEC-6AF3-44A3-8443-172671945DF2}" Type="Ref">/My Computer/Magnet2.lvlib/TMP_IL</Property>
 	<Property Name="varPersistentID:{04B0D3EB-FC36-4FBB-A7A2-142709298AE9}" Type="Ref">/My Computer/Magnet2.lvlib/FLW2</Property>
 	<Property Name="varPersistentID:{05B4150F-6B75-4A60-8799-FFD8FAE64720}" Type="Ref">/My Computer/Magnet2.lvlib/FLW_IL</Property>
@@ -48,6 +48,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{67E62872-F459-4A22-A2A2-44AD6DE394FB}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{3E7ECDA5-7ED6-476E-BC5F-1A32040B6D03}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{57F9A381-643C-4BF5-A41B-B36200BD7F49}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">MagnetSVE</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
