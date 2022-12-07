@@ -68,6 +68,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="GUI_Bella_Control_Center.vi" Type="VI" URL="../GUI_Bella_Control_Center.vi"/>
+		<Item Name="GUI_Bella_Triggers.vi" Type="VI" URL="../GUI_Bella_Triggers.vi"/>
 		<Item Name="GUI_MspecStitcher.vi" Type="VI" URL="../GUI_MspecStitcher.vi"/>
 		<Item Name="GUI_Bella_BTLsmall.vi" Type="VI" URL="../GUI_Bella_BTLsmall.vi"/>
 		<Item Name="GUI_Bella_IP2.vi" Type="VI" URL="../GUI_Bella_IP2.vi"/>
@@ -452,6 +453,7 @@
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="Build State String with Arguments__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__JKI_lib_State_Machine.vi"/>
 			</Item>
 			<Item Name="LaunchGUI.vi" Type="VI" URL="../../StagingBeamline/SubVis/LaunchGUI.vi"/>
 			<Item Name="disableUnusedSubPanels.vi" Type="VI" URL="../../StagingBeamline/SubVis/disableUnusedSubPanels.vi"/>
