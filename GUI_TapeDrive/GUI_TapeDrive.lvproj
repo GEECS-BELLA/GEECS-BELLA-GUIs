@@ -16,6 +16,7 @@
 		<Item Name="GUI_Tape_Alignment.vi" Type="VI" URL="../GUI_Tape_Alignment.vi"/>
 		<Item Name="GUI_TapeDrive.vi" Type="VI" URL="../GUI_TapeDrive.vi"/>
 		<Item Name="GUI_TapeDrive2.vi" Type="VI" URL="../GUI_TapeDrive2.vi"/>
+		<Item Name="GUI_TapeDrive_iP2.vi" Type="VI" URL="../GUI_TapeDrive_iP2.vi"/>
 		<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../send udp and wait for slow response.vi"/>
 		<Item Name="udp send test.vi" Type="VI" URL="../../../Shared/udp send test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -617,6 +618,57 @@
 				<Property Name="TgtF_productName" Type="Str">GUI_TapeDrive</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9A1B1DF0-D8E3-4310-831C-0A5E5F3082A9}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI_TapeDrive.exe</Property>
+			</Item>
+			<Item Name="GUI_TapeDrive_iP2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0F099058-8646-476C-ACA7-51D0B35E900E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1D123ED1-DA57-4498-8925-55CEE800C446}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C89D765E-C318-4C12-A789-F266E90A3983}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">GUI for operating Tape Drive in iP2</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_TapeDrive_iP2</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_TapeDrive_iP2</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{58D187D9-6A68-4990-A0E3-CDCC0AB9C250}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_TapeDrive_iP2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_TapeDrive_iP2/GUI_TapeDrive_iP2.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_TapeDrive_iP2/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{056E142E-284A-4222-A0A1-AA8154A16BF4}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_TapeDrive.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_TapeDrive2.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_TapeDrive_iP2.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_TapeDrive</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_TapeDrive</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_TapeDrive</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CE5005DB-D461-4985-9BFD-2A675F8CD7B1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_TapeDrive_iP2.exe</Property>
 			</Item>
 		</Item>
 	</Item>
