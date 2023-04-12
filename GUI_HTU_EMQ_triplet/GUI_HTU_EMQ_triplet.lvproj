@@ -72,6 +72,7 @@
 		<Item Name="ReadFileForCurrentList.vi" Type="VI" URL="../../../Device Drivers/KepcoBOP/subVIs/ReadFileForCurrentList.vi"/>
 		<Item Name="EMQ triple.ico" Type="Document" URL="../EMQ triple.ico"/>
 		<Item Name="CurrentCalculation.vi" Type="VI" URL="../CurrentCalculation.vi"/>
+		<Item Name="GUI_HTU_EMQ_triplet v2.vi" Type="VI" URL="../GUI_HTU_EMQ_triplet v2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -338,6 +339,9 @@
 				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -417,21 +421,15 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="diagnosticQuee.ctl" Type="VI" URL="../../StagingBeamline/Controls/diagnosticQuee.ctl"/>
 			<Item Name="deviceQueue.ctl" Type="VI" URL="../../StagingBeamline/Controls/deviceQueue.ctl"/>
-			<Item Name="GetDataSubVi.vi" Type="VI" URL="../../StagingBeamline/SubVis/GetDataSubVi.vi"/>
 			<Item Name="DeviceControl_Typdef.ctl" Type="VI" URL="../../StagingBeamline/Controls/DeviceControl_Typdef.ctl"/>
 			<Item Name="getDeviceType.vi" Type="VI" URL="../../StagingBeamline/SubVis/getDeviceType.vi"/>
 			<Item Name="getSubVarib.vi" Type="VI" URL="../../StagingBeamline/SubVis/getSubVarib.vi"/>
 			<Item Name="getDeviceIP.vi" Type="VI" URL="../../StagingBeamline/SubVis/getDeviceIP.vi"/>
 			<Item Name="DiagDeviceControl.vi" Type="VI" URL="../../StagingBeamline/SubVis/DiagDeviceControl.vi"/>
-			<Item Name="multi ping2.vi" Type="VI" URL="../../../../General/General-Controler/multi ping2.vi"/>
 			<Item Name="TemplateMenu.rtm" Type="Document" URL="../../GUI_Template/Developers Version/Interface/GUI_Template/TemplateMenu.rtm"/>
 			<Item Name="createGUIEvent.vi" Type="VI" URL="../../StagingBeamline/SubVis/createGUIEvent.vi"/>
 			<Item Name="eventHandler.vi" Type="VI" URL="../../StagingBeamline/SubVis/eventHandler.vi"/>
-			<Item Name="multi ping or nmap.vi" Type="VI" URL="../../../../General/General-Controler/multi ping or nmap.vi"/>
-			<Item Name="firstCall_TypDef.ctl" Type="VI" URL="../../General-Controler/firstCall_TypDef.ctl"/>
-			<Item Name="fistCallFGV.vi" Type="VI" URL="../../General-Controler/fistCallFGV.vi"/>
 			<Item Name="InitMagnetInterface.vi" Type="VI" URL="../../StagingMagSpecPower/subVi/InitMagnetInterface.vi"/>
 			<Item Name="MagnetCluster.ctl" Type="VI" URL="../../StagingMagSpecPower/MagnetCluster.ctl"/>
 			<Item Name="readMagnetInfo.vi" Type="VI" URL="../../StagingMagSpecPower/subVi/readMagnetInfo.vi"/>
@@ -446,9 +444,6 @@
 			<Item Name="energyCalibTypdef.ctl" Type="VI" URL="../../../../../Device Driver/StagingAnalysis/SubVis/energyCalibTypdef.ctl"/>
 			<Item Name="TwoPieceModel_not conti.vi" Type="VI" URL="../../../../../Device Driver/StagingAnalysis/SubVis/SubVi/TwoPieceModel_not conti.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="send commands to LV starters.vi" Type="VI" URL="../../../../../shared programs/send commands to LV starters.vi"/>
-			<Item Name="multi udp send spawn.vi" Type="VI" URL="../../../../General/General-Controler/multi udp send spawn.vi"/>
-			<Item Name="get single GUI start stop commands.vi" Type="VI" URL="../../../../General/General-Controler/get single GUI start stop commands.vi"/>
 			<Item Name="GetDevaultValues.vi" Type="VI" URL="../../../../../Device Driver/BaseDriver/GetDevaultValues.vi"/>
 			<Item Name="getTapControls.vi" Type="VI" URL="../../../General GUIs/shared/getTapControls.vi"/>
 			<Item Name="stop FGV control.ctl" Type="VI" URL="../../../Device Drivers/shared/stop FGV control.ctl"/>
@@ -545,9 +540,6 @@
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
-			<Item Name="udp multi alive.vi" Type="VI" URL="../../../../General/General-Controler/udp multi alive.vi"/>
-			<Item Name="Wake Multiple Computers.vi" Type="VI" URL="../../../../../shared programs/Remote Startup/Wake Multiple Computers.vi"/>
-			<Item Name="get MACs.vi" Type="VI" URL="../../../../../shared programs/MySQL/get MACs.vi"/>
 			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
 			<Item Name="draw crosshair imaq.vi" Type="VI" URL="../../../Shared/draw crosshair imaq.vi"/>
 			<Item Name="ellipse description.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/ellipse description.ctl"/>
@@ -555,6 +547,37 @@
 			<Item Name="Start and End point of crosshair X axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair X axis.vi"/>
 			<Item Name="Start and End point of crosshair Y axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair Y axis.vi"/>
 			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
+			<Item Name="udp multi alive.vi" Type="VI" URL="../../../General GUIs/General-Controler/udp multi alive.vi"/>
+			<Item Name="get MACs.vi" Type="VI" URL="../../../Shared/MySQL/get MACs.vi"/>
+			<Item Name="Convert Ascii Mac-Address to Hex Mac-Address.vi" Type="VI" URL="../../../Shared/Remote Startup/Convert Ascii Mac-Address to Hex Mac-Address.vi"/>
+			<Item Name="Wake Multiple Computers.vi" Type="VI" URL="../../../Shared/Remote Startup/Wake Multiple Computers.vi"/>
+			<Item Name="SendWakeCommand.vi" Type="VI" URL="../../../Shared/Remote Startup/SendWakeCommand.vi"/>
+			<Item Name="send commands to LV starters.vi" Type="VI" URL="../../../Shared/send commands to LV starters.vi"/>
+			<Item Name="multi udp send spawn.vi" Type="VI" URL="../../../General GUIs/General-Controler/multi udp send spawn.vi"/>
+			<Item Name="send diff commands to diff LV starters.vi" Type="VI" URL="../../../Shared/send diff commands to diff LV starters.vi"/>
+			<Item Name="clean up ip and message arrays for multiple udp send.vi" Type="VI" URL="../../../General GUIs/General-Controler/clean up ip and message arrays for multiple udp send.vi"/>
+			<Item Name="LaunchProgressBar.vi" Type="VI" URL="../../../Shared/ProgressBarExample/pbar/LaunchProgressBar.vi"/>
+			<Item Name="UpdateProgressBar.vi" Type="VI" URL="../../../Shared/ProgressBarExample/pbar/UpdateProgressBar.vi"/>
+			<Item Name="CloseProgressBar.vi" Type="VI" URL="../../../Shared/ProgressBarExample/pbar/CloseProgressBar.vi"/>
+			<Item Name="get single GUI start stop commands.vi" Type="VI" URL="../../../General GUIs/General-Controler/get single GUI start stop commands.vi"/>
+			<Item Name="search column name and give all col values.vi" Type="VI" URL="../../../General GUIs/General-Controler/search column name and give all col values.vi"/>
+			<Item Name="multi ping2.vi" Type="VI" URL="../../../General GUIs/General-Controler/multi ping2.vi"/>
+			<Item Name="ping computer.vi" Type="VI" URL="../../../General GUIs/General-Controler/ping computer.vi"/>
+			<Item Name="multi ping or nmap.vi" Type="VI" URL="../../../General GUIs/General-Controler/multi ping or nmap.vi"/>
+			<Item Name="Remove Blank and Duplicate elements from array.vi" Type="VI" URL="../../../General GUIs/shared/Remove Blank and Duplicate elements from array.vi"/>
+			<Item Name="nmap ping ip array.vi" Type="VI" URL="../../../General GUIs/General-Controler/nmap ping ip array.vi"/>
+			<Item Name="nmap.vi" Type="VI" URL="../../../General GUIs/General-Controler/nmap.vi"/>
+			<Item Name="firstCall_TypDef.ctl" Type="VI" URL="../../../General GUIs/General-Controler/firstCall_TypDef.ctl"/>
+			<Item Name="fistCallFGV.vi" Type="VI" URL="../../../General GUIs/General-Controler/fistCallFGV.vi"/>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General GUIs/General-Controler/Launch TCP data clients.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/Get all devices core info.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../../General GUIs/General-Controler/array to strings and values for ring.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
+			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_HTU_EMQ_triplet" Type="EXE">
@@ -573,7 +596,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{929CA227-B296-407E-B5B4-6F173ECFA97D}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI_HTU_EMQ_triplet.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/GUI_HTU_EMQ_triplet.exe</Property>
