@@ -100,6 +100,9 @@
 		<Item Name="Hexapod1check.vi" Type="VI" URL="../../GUI_HPDMAP/Hexapod1check.vi"/>
 		<Item Name="Control 1.ctl" Type="VI" URL="../../GUI_BELLA_ESP/Control 1.ctl"/>
 		<Item Name="appendScanFor LogMaker.vi" Type="VI" URL="../LogMakerPWsubvis/appendScanFor LogMaker.vi"/>
+		<Item Name="BELLA PW scan mode shot control shutter.vi" Type="VI" URL="../BELLA PW scan mode shot control shutter.vi"/>
+		<Item Name="edit expt variable.vi" Type="VI" URL="../../../General GUIs/Database Manager/GUI DB/edit expt variable.vi"/>
+		<Item Name="Jet in scan on or off.vi" Type="VI" URL="../Jet in scan on or off.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -462,6 +465,7 @@
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 			</Item>
 			<Item Name="LaunchGUI.vi" Type="VI" URL="../../StagingBeamline/SubVis/LaunchGUI.vi"/>
 			<Item Name="disableUnusedSubPanels.vi" Type="VI" URL="../../StagingBeamline/SubVis/disableUnusedSubPanels.vi"/>
@@ -502,7 +506,7 @@
 			<Item Name="SQL Server Info.vi" Type="VI" URL="../../../Shared/MySQL/SQL Server Info.vi"/>
 			<Item Name="draw crosshair imaq.vi" Type="VI" URL="../../../Shared/draw crosshair imaq.vi"/>
 			<Item Name="Image GUI options.ctl" Type="VI" URL="../../../General GUIs/shared/Image GUI options.ctl"/>
-			<Item Name="SQL edit expt device variable.vi" Type="VI" URL="../../../../General/shared/SQL edit expt device variable.vi"/>
+			<Item Name="SQL edit expt device variable.vi" Type="VI" URL="../../../General GUIs/shared/SQL edit expt device variable.vi"/>
 			<Item Name="DefaultValue_Variable_MC.vi" Type="VI" URL="../../../../General/Database Manager/DefaultValue_Variable_MC.vi"/>
 			<Item Name="GetDevaultValues.vi" Type="VI" URL="../../../../../Device Driver/BaseDriver/GetDevaultValues.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
@@ -655,6 +659,7 @@
 			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
 			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
 			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
+			<Item Name="SQL Update.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Update.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
