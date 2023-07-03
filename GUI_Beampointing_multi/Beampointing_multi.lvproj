@@ -605,6 +605,11 @@
 			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
 			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
 			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
+			<Item Name="image color table presets.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.ctl"/>
+			<Item Name="Component Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Component Generator.vi"/>
+			<Item Name="Color Table Generator.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/2008 Image manager.llb/Color Table Generator.vi"/>
+			<Item Name="image color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/color tables/image color table presets.vi"/>
+			<Item Name="IMAQ color table presets.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/IMAQ color table presets.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BeamPointing" Type="EXE">
