@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -27,6 +27,7 @@
 		<Item Name="GUI_Plasma2_cap_pressure_cal.vi" Type="VI" URL="../GUI_Plasma2_cap_pressure_cal.vi"/>
 		<Item Name="GUI_Plasma2_pressure_cal2.vi" Type="VI" URL="../GUI_Plasma2_pressure_cal2.vi"/>
 		<Item Name="GUI_Plasma1_pressure_cal1.vi" Type="VI" URL="../GUI_Plasma1_pressure_cal1.vi"/>
+		<Item Name="GUI_Plasma2_GasJetInterferometry.vi" Type="VI" URL="../GUI_Plasma2_GasJetInterferometry.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
@@ -307,7 +308,6 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -356,6 +356,7 @@
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			</Item>
 			<Item Name="TriggerSource_TypDef.ctl" Type="VI" URL="../../../Device Drivers/DG645/subVIs/TriggerSource_TypDef.ctl"/>
 			<Item Name="XY- Graph As Chart.vi" Type="VI" URL="../../../../General/shared/XY-Graph As Chart/XY- Graph As Chart.vi"/>
@@ -465,6 +466,16 @@
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
 			<Item Name="supergui create stop queue.vi" Type="VI" URL="../../../Shared/supergui create stop queue.vi"/>
+			<Item Name="clearTCPBufferSerial.vi" Type="VI" URL="../../../Shared/TCP/clearTCPBufferSerial.vi"/>
+			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General GUIs/General-Controler/Launch TCP data clients.vi"/>
+			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/Get all devices core info.vi"/>
+			<Item Name="array to strings and values for ring.vi" Type="VI" URL="../../../General GUIs/General-Controler/array to strings and values for ring.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="LogSort_Stack.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Stack.vi"/>
+			<Item Name="LogSort_Partition.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_Partition.vi"/>
+			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
+			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
+			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Plasma2SuperGUI" Type="EXE">
@@ -472,6 +483,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{7015583F-BD3C-4191-9D71-C32B7F1A3E67}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D7106E64-307E-41CE-8FA6-6A57ABDC6E91}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E0B74892-1851-4874-9B56-7DA6A9C94BFA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Plasma2SuperGUI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -519,6 +531,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{C6C75F80-E8C1-454A-BA38-3B6DC8007762}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0543D27A-4401-4FFD-BB95-E5DB04BE69A2}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{2E9CAFFF-8F66-47BA-978B-CEFA2604B706}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Plasma2_cap_pressure_cal</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -572,6 +585,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{8DE6414F-CB86-4412-8DD0-88383B7EE3A1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{85A31727-8D0E-4E24-8BC4-FA0A759D74B6}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{593FB0C6-C9E4-4BD3-A8A2-CE953E5EA9E7}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">\Non-General GUIs\BELLA\z</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Plasma2SuperGUI_capillaries</Property>
@@ -623,6 +637,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{8132DCB0-C79B-4BC3-B273-BC85DEB539D9}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8A5DC03D-6ED4-4255-933A-D9E550C41003}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{52ED5193-9202-4B11-94A7-39E49B848099}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">GUI_Plasma2_MedJet</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -664,6 +679,57 @@
 				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{7FB458EA-3CF2-4916-85A0-69C718CB7CE3}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI_Plasma2_MedJet.exe</Property>
+			</Item>
+			<Item Name="GUI_Plasma2_GasJet" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D787DCF2-45BF-4A3C-852D-CA8F5CEE62CA}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6A3D07B9-ACE5-4A8C-9FC8-5B99EFECF409}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{460D7943-0BA8-4E6F-BEF0-6DD2B495C190}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_Plasma2_GasJet</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Plasma2_GasJet</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{751408D7-6A30-4AF6-8FA1-37AD6907852C}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_Plasma2_GasJet.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Plasma2_GasJet/GUI_Plasma2_GasJet.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Plasma2_GasJet/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/subvis/GUI_Bella_BTL.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5ACE3B52-D022-49C8-8253-9BACA9143908}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_HPD_CCD.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Plasma2_MedJet.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_Plasma2_GasJetInterferometry.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7BBBC645-6B11-435B-BF03-1487A489AFA3}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_Plasma2_GasJet.exe</Property>
 			</Item>
 		</Item>
 	</Item>
