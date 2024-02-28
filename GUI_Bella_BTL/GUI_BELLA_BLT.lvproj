@@ -86,6 +86,7 @@
 		<Item Name="Left.ctl" Type="VI" URL="../Left.ctl"/>
 		<Item Name="up.ctl" Type="VI" URL="../up.ctl"/>
 		<Item Name="Right.ctl" Type="VI" URL="../Right.ctl"/>
+		<Item Name="posTypDef.ctl" Type="VI" URL="../../../Device Drivers/FilterWheels/posTypDef.ctl"/>
 		<Item Name="is image ready for update.vi" Type="VI" URL="../is image ready for update.vi"/>
 		<Item Name="right small.ctl" Type="VI" URL="../right small.ctl"/>
 		<Item Name="down small.ctl" Type="VI" URL="../down small.ctl"/>
