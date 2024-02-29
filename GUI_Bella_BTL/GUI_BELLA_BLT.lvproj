@@ -1409,7 +1409,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A25A8C14-DC99-445C-8AC7-4ED46D596205}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{33CC34CB-5AFC-4317-819E-0B55247869E1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
