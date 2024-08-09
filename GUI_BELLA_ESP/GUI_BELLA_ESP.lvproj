@@ -16,6 +16,7 @@
 		</Item>
 		<Item Name="GUI_BELLA_ESP.vi" Type="VI" URL="../GUI_BELLA_ESP.vi"/>
 		<Item Name="GUI_BELLA_ESP-2BL.vi" Type="VI" URL="../GUI_BELLA_ESP-2BL.vi"/>
+		<Item Name="GUI_BELLA_ESP-HPD.vi" Type="VI" URL="../GUI_BELLA_ESP-HPD.vi"/>
 		<Item Name="GUI_Bella_BTL.ico" Type="Document" URL="../../GUI_Bella_BTL/GUI_Bella_BTL.ico"/>
 		<Item Name="Down.ctl" Type="VI" URL="../../GUI_Bella_BTL/Down.ctl"/>
 		<Item Name="Left.ctl" Type="VI" URL="../../GUI_Bella_BTL/Left.ctl"/>
@@ -557,6 +558,57 @@
 				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{CB3E9E64-0E2E-4D8B-96B3-19703BEA59FC}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI_ESP-2BL.exe</Property>
+			</Item>
+			<Item Name="GUI_ESP-HPD" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0979A553-B2CE-4990-87DD-B63F559EDE7E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{14BD0F36-4F0C-4603-AEB3-E392CE5A2B73}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{54CFA8D5-8173-4687-907C-29D7265FF295}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_ESP-HPD</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_ESP-HPD</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{39B78090-CB72-4157-872F-05D4297F7B2F}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_ESP-HPD.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_ESP-HPD/GUI_ESP-HPD.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_ESP-HPD/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5B99517F-0C42-4D56-AB78-46A11855A868}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_BELLA_ESP.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_BELLA_ESP-2BL.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_BELLA_ESP-HPD.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{DF4C23F4-133A-4320-9502-AA4BB2DBAC35}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_ESP-HPD.exe</Property>
 			</Item>
 		</Item>
 	</Item>
