@@ -68,6 +68,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="GUI_Bella_Control_Center.vi" Type="VI" URL="../GUI_Bella_Control_Center.vi"/>
+		<Item Name="GUI_Bella_LaserTable.vi" Type="VI" URL="../GUI_Bella_LaserTable.vi"/>
 		<Item Name="GUI_Bella_Triggers.vi" Type="VI" URL="../GUI_Bella_Triggers.vi"/>
 		<Item Name="GUI_MspecStitcher.vi" Type="VI" URL="../GUI_MspecStitcher.vi"/>
 		<Item Name="GUI_Bella_BTLsmall.vi" Type="VI" URL="../GUI_Bella_BTLsmall.vi"/>
@@ -570,11 +571,6 @@
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
 			<Item Name="TriggerSource_TypDef.ctl" Type="VI" URL="../../../Device Drivers/DG645/subVIs/TriggerSource_TypDef.ctl"/>
-			<Item Name="ellipse description.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/ellipse description.ctl"/>
-			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
-			<Item Name="Crosshair type def.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/Crosshair type def.ctl"/>
-			<Item Name="Start and End point of crosshair Y axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair Y axis.vi"/>
-			<Item Name="Start and End point of crosshair X axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair X axis.vi"/>
 			<Item Name="device name shot number from tcp udp.vi" Type="VI" URL="../../../General GUIs/shared/device name shot number from tcp udp.vi"/>
 			<Item Name="image strings to images.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/image strings to images.vi"/>
 			<Item Name="tcp open connection from subscription messag.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/tcp open connection from subscription messag.vi"/>
@@ -699,6 +695,11 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PasswordPrompt.vi" Type="VI" URL="../../GUI_BELLA_StageMegattentuator/PasswordPrompt.vi"/>
+			<Item Name="ellipse description.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/ellipse description.ctl"/>
+			<Item Name="Crosshair type def.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/Crosshair type def.ctl"/>
+			<Item Name="Start and End point of crosshair X axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair X axis.vi"/>
+			<Item Name="Start and End point of crosshair Y axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair Y axis.vi"/>
+			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
