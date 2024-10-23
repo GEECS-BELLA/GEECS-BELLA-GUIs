@@ -68,6 +68,8 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="GUI_Bella_Control_Center.vi" Type="VI" URL="../GUI_Bella_Control_Center.vi"/>
+		<Item Name="GUI_Bella_1BL.vi" Type="VI" URL="../GUI_Bella_1BL.vi"/>
+		<Item Name="GUI_Bella_LaserTable.vi" Type="VI" URL="../GUI_Bella_LaserTable.vi"/>
 		<Item Name="GUI_Bella_Triggers.vi" Type="VI" URL="../GUI_Bella_Triggers.vi"/>
 		<Item Name="GUI_MspecStitcher.vi" Type="VI" URL="../GUI_MspecStitcher.vi"/>
 		<Item Name="GUI_Bella_BTLsmall.vi" Type="VI" URL="../GUI_Bella_BTLsmall.vi"/>
@@ -105,6 +107,7 @@
 		<Item Name="edit expt variable.vi" Type="VI" URL="../../../General GUIs/Database Manager/GUI DB/edit expt variable.vi"/>
 		<Item Name="Jet in scan on or off.vi" Type="VI" URL="../Jet in scan on or off.vi"/>
 		<Item Name="OCR.vi" Type="VI" URL="../../OCR/OCR.vi"/>
+		<Item Name="GUI_Bella_LaserTable_Frontend.vi" Type="VI" URL="../GUI_Bella_LaserTable_Frontend.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -570,11 +573,6 @@
 			<Item Name="Allowed root paths.vi" Type="VI" URL="../../../Shared/Allowed root paths.vi"/>
 			<Item Name="any equal.vi" Type="VI" URL="../../../General GUIs/General-Controler/any equal.vi"/>
 			<Item Name="TriggerSource_TypDef.ctl" Type="VI" URL="../../../Device Drivers/DG645/subVIs/TriggerSource_TypDef.ctl"/>
-			<Item Name="ellipse description.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/ellipse description.ctl"/>
-			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
-			<Item Name="Crosshair type def.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/Crosshair type def.ctl"/>
-			<Item Name="Start and End point of crosshair Y axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair Y axis.vi"/>
-			<Item Name="Start and End point of crosshair X axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair X axis.vi"/>
 			<Item Name="device name shot number from tcp udp.vi" Type="VI" URL="../../../General GUIs/shared/device name shot number from tcp udp.vi"/>
 			<Item Name="image strings to images.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/image strings to images.vi"/>
 			<Item Name="tcp open connection from subscription messag.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/tcp open connection from subscription messag.vi"/>
@@ -699,6 +697,11 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PasswordPrompt.vi" Type="VI" URL="../../GUI_BELLA_StageMegattentuator/PasswordPrompt.vi"/>
+			<Item Name="ellipse description.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/ellipse description.ctl"/>
+			<Item Name="Crosshair type def.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Controls/Crosshair type def.ctl"/>
+			<Item Name="Start and End point of crosshair X axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair X axis.vi"/>
+			<Item Name="Start and End point of crosshair Y axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair Y axis.vi"/>
+			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
@@ -1490,6 +1493,147 @@
 				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{EF0C0C6C-46D3-48D0-9FA1-AA41CF0ABB1E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI_PW_triggers.exe</Property>
+			</Item>
+			<Item Name="GUI_BELLA_LaserTable1" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A44A6DF2-6D33-4283-A009-870346A543CD}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F9919ECF-8A10-4C28-819A-E68CF8FF69BC}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{986CBB4A-BD71-4124-B25F-22078AAA0F80}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_BELLA_LaserTable1</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_BELLA_LaserTable1</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8AB79923-C059-4748-92B2-2C9EFBBD4510}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_BELLA_LaserTable1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_BELLA_LaserTable1/GUI_BELLA_LaserTable1.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_BELLA_LaserTable1/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{96D59008-B863-4DA3-AC34-7A2CCBD1274F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_LaserTable.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/is image ready for update.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_BELLA_LaserTable1</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_BELLA_LaserTable1</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_BELLA_LaserTable1</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{3270F707-6AB7-4774-9AA5-196E98786406}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_BELLA_LaserTable1.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="GUI_Laser_Table" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{59F969FB-1F75-47E4-BEA5-5757FDDD3CF9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{BA1A719C-4408-4489-A9CA-833297C33DE1}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3163795E-A310-4B8F-9FF7-2D99BAF1D0FE}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_Laser_Table</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Laser_Table</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{2D6EDFFD-C218-4187-817B-F3BAB10DE898}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_Laser_Table.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Laser_Table/GUI_Laser_Table.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Laser_Table/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{13AEF84B-E6CE-4E45-A125-6FD6E98D367E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Bella_LaserTable.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Laser_Table</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Laser_Table</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Laser_Table</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8520D063-6EE7-46D1-94E2-A7B487C415B6}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_Laser_Table.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="GUI_Bella_1BL" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{ED9D4DB9-76E1-44D8-85B5-3FE6C5B9F85B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5606ECBC-DFFF-4A1A-B670-2C3EAC6CF394}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B7433AE3-F96B-4518-BBA8-158950813135}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_1BL</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_1BL</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B80CAC48-789C-4D5F-829B-6899B87565E6}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_Bella_1BL.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_1BL/GUI_Bella_1BL.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_1BL/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A9DB1FA1-87E8-4D3F-87E0-8042752FA86A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Bella_1BL.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_1BL</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_1BL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Bella_1BL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{757FA7BF-1242-4157-84F9-91EA87C0F621}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_Bella_1BL.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
