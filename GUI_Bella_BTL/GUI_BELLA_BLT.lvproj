@@ -107,6 +107,7 @@
 		<Item Name="edit expt variable.vi" Type="VI" URL="../../../General GUIs/Database Manager/GUI DB/edit expt variable.vi"/>
 		<Item Name="Jet in scan on or off.vi" Type="VI" URL="../Jet in scan on or off.vi"/>
 		<Item Name="OCR.vi" Type="VI" URL="../../OCR/OCR.vi"/>
+		<Item Name="GUI_Bella_LaserTable_Frontend.vi" Type="VI" URL="../GUI_Bella_LaserTable_Frontend.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -1556,7 +1557,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Laser_Table</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2D6EDFFD-C218-4187-817B-F3BAB10DE898}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI_Laser_Table.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Laser_Table/GUI_Laser_Table.exe</Property>
@@ -1567,7 +1568,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Laser_Table/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C3F00F56-3854-42B6-891F-5FE52A497137}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{13AEF84B-E6CE-4E45-A125-6FD6E98D367E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -1602,7 +1603,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_1BL</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B80CAC48-789C-4D5F-829B-6899B87565E6}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GUI_Bella_1BL.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_1BL/GUI_Bella_1BL.exe</Property>
