@@ -67,6 +67,7 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="GUI_Bella_Control_Center_OFI.vi" Type="VI" URL="../GUI_Bella_Control_Center_OFI.vi"/>
 		<Item Name="GUI_Bella_Control_Center.vi" Type="VI" URL="../GUI_Bella_Control_Center.vi"/>
 		<Item Name="GUI_Bella_1BL.vi" Type="VI" URL="../GUI_Bella_1BL.vi"/>
 		<Item Name="GUI_Bella_LaserTable.vi" Type="VI" URL="../GUI_Bella_LaserTable.vi"/>
@@ -108,7 +109,7 @@
 		<Item Name="Jet in scan on or off.vi" Type="VI" URL="../Jet in scan on or off.vi"/>
 		<Item Name="OCR.vi" Type="VI" URL="../../OCR/OCR.vi"/>
 		<Item Name="GUI_Bella_LaserTable_Frontend.vi" Type="VI" URL="../GUI_Bella_LaserTable_Frontend.vi"/>
-		<Item Name="GUI_Bella_Control_Center_OFI.vi" Type="VI" URL="../GUI_Bella_Control_Center_OFI.vi"/>
+		<Item Name="DefaultValue_Variable_MC.vi" Type="VI" URL="../../../General GUIs/Database Manager/DefaultValue_Variable_MC.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -540,7 +541,6 @@
 			<Item Name="draw crosshair imaq.vi" Type="VI" URL="../../../Shared/draw crosshair imaq.vi"/>
 			<Item Name="Image GUI options.ctl" Type="VI" URL="../../../General GUIs/shared/Image GUI options.ctl"/>
 			<Item Name="SQL edit expt device variable.vi" Type="VI" URL="../../../General GUIs/shared/SQL edit expt device variable.vi"/>
-			<Item Name="DefaultValue_Variable_MC.vi" Type="VI" URL="../../../../General/Database Manager/DefaultValue_Variable_MC.vi"/>
 			<Item Name="GetDevaultValues.vi" Type="VI" URL="../../../../../Device Driver/BaseDriver/GetDevaultValues.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
@@ -701,6 +701,8 @@
 			<Item Name="Start and End point of crosshair X axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair X axis.vi"/>
 			<Item Name="Start and End point of crosshair Y axis.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/Start and End point of crosshair Y axis.vi"/>
 			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
+			<Item Name="populateVariableFromDeviceTypeVariable.vi" Type="VI" URL="../../../General GUIs/Database Manager/populateVariableFromDeviceTypeVariable.vi"/>
+			<Item Name="SQL Insert.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Insert.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
