@@ -110,6 +110,7 @@
 		<Item Name="OCR.vi" Type="VI" URL="../../OCR/OCR.vi"/>
 		<Item Name="GUI_Bella_LaserTable_Frontend.vi" Type="VI" URL="../GUI_Bella_LaserTable_Frontend.vi"/>
 		<Item Name="DefaultValue_Variable_MC.vi" Type="VI" URL="../../../General GUIs/Database Manager/DefaultValue_Variable_MC.vi"/>
+		<Item Name="Jet on times.ctl" Type="VI" URL="../Jet on times.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -703,6 +704,7 @@
 			<Item Name="draw xy graph Ellipse.vi" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Cameras/Subvi/draw xy graph Ellipse.vi"/>
 			<Item Name="populateVariableFromDeviceTypeVariable.vi" Type="VI" URL="../../../General GUIs/Database Manager/populateVariableFromDeviceTypeVariable.vi"/>
 			<Item Name="SQL Insert.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Insert.vi"/>
+			<Item Name="TimeoutDialog.vi" Type="VI" URL="../../../General GUIs/General-Controler/TimeoutDialog.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
@@ -730,7 +732,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/gnome_control_center.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EB6FCCD9-21AC-4FC2-A9DA-26153D890787}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{49F75554-7885-45CC-B4C7-4089D796C654}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
