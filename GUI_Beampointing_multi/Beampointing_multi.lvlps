@@ -42,10 +42,10 @@ Cache_Path[Path] Line0001 = "/C/Users/tony/AppData/Local/Temp/AB_Cache_{9D1624B"
 Cache_Path[Path] Line0002 = "3-A19F-44FD-BCC9-79BCFCE48289}.txt"
 
 [AB_Cache_{58281600-1290-4DC8-9708-342A3E891FC4}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
-Cache_Path[Path] Line0002 = "_{58281600-1290-4DC8-9708-342A3E891FC4}.txt"
+Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{58281"
+Cache_Path[Path] Line0002 = "600-1290-4DC8-9708-342A3E891FC4}.txt"
 
 [AB_Cache_{4ED81F4A-1ED1-4ED5-97A5-4D7B4ECF621C}]
-Cache_Path[Path] Line0001 = "/C/Users/loasis.LOASIS/AppData/Local/Temp/AB_Cache"
-Cache_Path[Path] Line0002 = "_{4ED81F4A-1ED1-4ED5-97A5-4D7B4ECF621C}.txt"
+Cache_Path[Path] Line0001 = "/C/Users/loasis/AppData/Local/Temp/AB_Cache_{4ED81"
+Cache_Path[Path] Line0002 = "F4A-1ED1-4ED5-97A5-4D7B4ECF621C}.txt"
 
