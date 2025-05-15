@@ -68,6 +68,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="GUI_Bella_Control_Center_OFI.vi" Type="VI" URL="../GUI_Bella_Control_Center_OFI.vi"/>
+		<Item Name="GUI_Bella_Control_Center_iP2.vi" Type="VI" URL="../GUI_Bella_Control_Center_iP2.vi"/>
 		<Item Name="GUI_Bella_Control_Center.vi" Type="VI" URL="../GUI_Bella_Control_Center.vi"/>
 		<Item Name="GUI_Bella_1BL.vi" Type="VI" URL="../GUI_Bella_1BL.vi"/>
 		<Item Name="GUI_Bella_LaserTable.vi" Type="VI" URL="../GUI_Bella_LaserTable.vi"/>
@@ -732,7 +733,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/gnome_control_center.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{49F75554-7885-45CC-B4C7-4089D796C654}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{601AE46E-AC8F-4B69-8FFC-583A2D6D4CDD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
@@ -750,9 +751,12 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GUI_Bella_Control_Center_OFI.vi</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/GUI_Bella_Control_Center_iP2.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
