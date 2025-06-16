@@ -472,7 +472,7 @@
 			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="GUI_kHz_Control_Center" Type="EXE">
+			<Item Name="GUI_kHz_FlexibleDelivery" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{C0430822-26EB-4A5C-8E7A-7CC23CD84A1F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{557D7848-3D7C-4A16-B3B2-1AEFCF91AAFF}</Property>
@@ -480,7 +480,7 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D8FD3D71-C75C-4982-8F65-EE0D4094208E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">GUI_kHz_Control_Center</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_kHz_FlexibleDelivery</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -489,10 +489,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BD722E7D-3837-4D36-9E9F-8C9B25863F79}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">GUI_kHz_Control_Center.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/GUI_kHz_Control_Center.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_kHz_FlexibleDelivery.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/GUI_kHz_FlexibleDelivery.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -501,7 +501,8 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5446A796-F47F-47FA-877C-82AA59DC05AB}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_kHz_ControlCenter/kagomefibre.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E05450E7-EC57-4259-97CA-F909014E89DC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -510,16 +511,69 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_kHz_ControlCenter/GUI_kHz_FlexibleDelivery.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">GUI_kHz_Control_Center</Property>
-				<Property Name="TgtF_internalName" Type="Str">GUI_kHz_Control_Center</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_kHz_FlexibleDelivery</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_kHz_FlexibleDelivery</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">GUI_kHz_Control_Center</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_kHz_FlexibleDelivery</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A4128CC4-66D3-4E75-A6C5-07320ABAE118}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">GUI_kHz_Control_Center.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_kHz_FlexibleDelivery.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="GUI_kHz_LPA" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{1FA1B41D-88B2-4CC2-AF75-5DE31B8665A4}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{CD06B51B-D9CB-4F62-84B5-EB468812518C}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A461AECE-A88C-4E87-B5EB-7E9C37B504B1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_kHz_LPA</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F8E13AD2-BF73-4222-9376-3AD7C03734C8}</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_kHz_LPA.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/GUI_kHz_LPA.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E05450E7-EC57-4259-97CA-F909014E89DC}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_kHz_ControlCenter/GUI_kHz_FlexibleDelivery.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_kHz_ControlCenter/GUI_kHz_LPA.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_kHz_FlexibleDelivery</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_kHz_FlexibleDelivery</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_kHz_FlexibleDelivery</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D046007D-EBEF-4D8F-97DA-A8FAEF69FF07}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_kHz_LPA.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
