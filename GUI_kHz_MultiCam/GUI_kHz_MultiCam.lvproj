@@ -1785,35 +1785,32 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1A6C50AA-5763-44C7-95C9-9450244E7EEE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI_kHz_FF.exe</Property>
 			</Item>
-			<Item Name="Copy of GUI_kHz_FF" Type="EXE">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/vi.lib/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass</Property>
-				<Property Name="AB_Temp_Project_Path" Type="Path">/C/GEECS/Developers Version/source/Bella center GUIs/GUI_kHz_MultiCam/GUI_kHz_MultiCam.lvproj</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
+			<Item Name="GUI_kHz_FF_small" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{0AE36127-1E72-46E4-92E7-7E4A145A8678}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{F7527F53-13AC-48F1-BE98-07E5B6F219AF}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6342C1DF-9521-41B1-83EC-B26D1431EE32}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Copy of GUI_kHz_FF</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_kHz_FF_small</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/Copy of GUI_kHz_FF</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_FF_small</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5AAD4061-C5DF-4335-A58D-83FCEE9CA40C}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">GUI_kHz_FF.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/Copy of GUI_kHz_FF/GUI_kHz_FF.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_kHz_FF_small.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_FF_small/GUI_kHz_FF_small.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/Copy of GUI_kHz_FF/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_FF_small/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ED251C41-11EF-4BBA-9C21-F00B89A9B060}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9509B463-8412-4CCE-AA1D-D6AB1B0846E6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
@@ -1828,16 +1825,19 @@
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_kHz_FF.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GUI_kHz_FF_small.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
 				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{29C9FA85-B375-4929-9734-B10B2FC5F78A}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">GUI_kHz_FF.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_kHz_FF_small.exe</Property>
 			</Item>
 		</Item>
 	</Item>
