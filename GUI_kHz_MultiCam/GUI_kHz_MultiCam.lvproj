@@ -26,8 +26,6 @@
 			<Item Name="Mirror_GUI.vi" Type="VI" URL="../../StagingBeamline/SubVis/Mirror_GUI.vi"/>
 			<Item Name="Template_GUI.vi" Type="VI" URL="../../StagingBeamline/SubVis/Template_GUI.vi"/>
 			<Item Name="Magnet_GUI.vi" Type="VI" URL="../../StagingBeamline/SubVis/Magnet_GUI.vi"/>
-			<Item Name="Spec_GUI.vi" Type="VI" URL="../../StagingBeamline/SubVis/Spec_GUI.vi"/>
-			<Item Name="Energy_GUI.vi" Type="VI" URL="../../StagingBeamline/SubVis/Energy_GUI.vi"/>
 		</Item>
 		<Item Name="FGV" Type="Folder">
 			<Item Name="buttonFGV.vi" Type="VI" URL="../../StagingBeamline/SubVis/buttonFGV.vi"/>
@@ -79,9 +77,6 @@
 		<Item Name="GUI_Bella_IP2_plasma1.vi" Type="VI" URL="../GUI_Bella_IP2_plasma1.vi"/>
 		<Item Name="GUI_Bella_FilterWheels_All.vi" Type="VI" URL="../GUI_Bella_FilterWheels_All.vi"/>
 		<Item Name="GUI_Bella_BTL_timed.vi" Type="VI" URL="../GUI_Bella_BTL_timed.vi"/>
-		<Item Name="GUI_Bella_Laser.vi" Type="VI" URL="../GUI_Bella_Laser.vi"/>
-		<Item Name="GUI_Bella_GAIAs.vi" Type="VI" URL="../GUI_Bella_GAIAs.vi"/>
-		<Item Name="GUI_Bella_Laser_separate_graphs.vi" Type="VI" URL="../GUI_Bella_Laser_separate_graphs.vi"/>
 		<Item Name="GUI_map_image_parser.vi" Type="VI" URL="../GUI_map_image_parser.vi"/>
 		<Item Name="GUI_Bella_Control_Center-ForShowOnly.vi" Type="VI" URL="../GUI_Bella_Control_Center-ForShowOnly.vi"/>
 		<Item Name="GUI_Capillary_Transverse_Diagnostics.vi" Type="VI" URL="../GUI_Capillary_Transverse_Diagnostics.vi"/>
@@ -114,6 +109,8 @@
 		<Item Name="DefaultValue_Variable_MC.vi" Type="VI" URL="../../../General GUIs/Database Manager/DefaultValue_Variable_MC.vi"/>
 		<Item Name="Jet on times.ctl" Type="VI" URL="../Jet on times.ctl"/>
 		<Item Name="GUI_kHz_HCF.vi" Type="VI" URL="../GUI_kHz_HCF.vi"/>
+		<Item Name="GUI_kHz_FF.vi" Type="VI" URL="../GUI_kHz_FF.vi"/>
+		<Item Name="GUI_kHz_FF_small.vi" Type="VI" URL="../GUI_kHz_FF_small.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -525,19 +522,10 @@
 			<Item Name="changetoStaging.vi" Type="VI" URL="../../StagingMagSpecPower/subVi/changetoStaging.vi"/>
 			<Item Name="checkSetCurrent.vi" Type="VI" URL="../../StagingMagSpecPower/subVi/checkSetCurrent.vi"/>
 			<Item Name="setCurrent.vi" Type="VI" URL="../../StagingMagSpecPower/subVi/setCurrent.vi"/>
-			<Item Name="updateXYGraph.vi" Type="VI" URL="../../../../General/Device GUIs/GUI_HamamatsuSpectrometer/updateXYGraph.vi"/>
-			<Item Name="polTypDef.ctl" Type="VI" URL="../../../../../Device Driver/StagingAnalysis/SubVis/SubVi/polTypDef.ctl"/>
-			<Item Name="OnOffTypeDef.ctl" Type="VI" URL="../../../../../Device Driver/shared/OnOffTypeDef.ctl"/>
-			<Item Name="energyCalibTypdef.ctl" Type="VI" URL="../../../../../Device Driver/StagingAnalysis/SubVis/energyCalibTypdef.ctl"/>
-			<Item Name="TwoPieceModel_not conti.vi" Type="VI" URL="../../../../../Device Driver/StagingAnalysis/SubVis/SubVi/TwoPieceModel_not conti.vi"/>
 			<Item Name="Fire button.ctl" Type="VI" URL="../../GUI_TestStand/Fire button.ctl"/>
 			<Item Name="open tcp connections and create images.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/open tcp connections and create images.vi"/>
 			<Item Name="get multiple images over tcp.vi" Type="VI" URL="../../../General GUIs/shared/subscribe to images no super gui/get multiple images over tcp.vi"/>
 			<Item Name="normalize vision image.vi" Type="VI" URL="../../../Shared/normalize vision image.vi"/>
-			<Item Name="add values to xy graph 8 plots.vi" Type="VI" URL="../../../General GUIs/shared/add values to xy graph 8 plots.vi"/>
-			<Item Name="add values to xy graph 10 plots.vi" Type="VI" URL="../../../General GUIs/shared/add values to xy graph 10 plots.vi"/>
-			<Item Name="add values to xy graph 2 plots.vi" Type="VI" URL="../../../../General/shared/add values to xy graph 2 plots.vi"/>
-			<Item Name="decimate multiple graphs.vi" Type="VI" URL="../../shared/decimate multiple graphs.vi"/>
 			<Item Name="get info from core device data.vi" Type="VI" URL="../../../General GUIs/General-Controler/get info from core device data.vi"/>
 			<Item Name="Preset Query Enum.ctl" Type="VI" URL="../../../Shared/MySQL/Preset Query Enum.ctl"/>
 			<Item Name="preset SQL Queries.vi" Type="VI" URL="../../../Shared/MySQL/preset SQL Queries.vi"/>
@@ -546,7 +534,6 @@
 			<Item Name="draw crosshair imaq.vi" Type="VI" URL="../../../Shared/draw crosshair imaq.vi"/>
 			<Item Name="Image GUI options.ctl" Type="VI" URL="../../../General GUIs/shared/Image GUI options.ctl"/>
 			<Item Name="SQL edit expt device variable.vi" Type="VI" URL="../../../General GUIs/shared/SQL edit expt device variable.vi"/>
-			<Item Name="GetDevaultValues.vi" Type="VI" URL="../../../../../Device Driver/BaseDriver/GetDevaultValues.vi"/>
 			<Item Name="Get Application Directory.vi" Type="VI" URL="../../../Shared/Get Application Directory.vi"/>
 			<Item Name="mysql_authentication.ctl" Type="VI" URL="../../../Shared/MySQL/typedefs/mysql_authentication.ctl"/>
 			<Item Name="getIP.vi" Type="VI" URL="../../../Shared/Device Driver/getIP.vi"/>
@@ -680,9 +667,6 @@
 			<Item Name="remove rows of duplicate col in 2d array.vi" Type="VI" URL="../../../Shared/remove rows of duplicate col in 2d array.vi"/>
 			<Item Name="Filter_typdef.ctl" Type="VI" URL="../../../Device Drivers/LEPS Interface/Filter_typdef.ctl"/>
 			<Item Name="send commands to LV starters.vi" Type="VI" URL="../../../Shared/send commands to LV starters.vi"/>
-			<Item Name="XY- Graph As Chart.vi" Type="VI" URL="../../../General GUIs/shared/XY-Graph As Chart/XY- Graph As Chart.vi"/>
-			<Item Name="add value to xy graph.vi" Type="VI" URL="../../../General GUIs/shared/add value to xy graph.vi"/>
-			<Item Name="add values to xy graph 24 plots.vi" Type="VI" URL="../../../General GUIs/shared/add values to xy graph 24 plots.vi"/>
 			<Item Name="Launch TCP data clients.vi" Type="VI" URL="../../../General GUIs/General-Controler/Launch TCP data clients.vi"/>
 			<Item Name="generateEvent.vi" Type="VI" URL="../../../Device Drivers/shared/generateEvent.vi"/>
 			<Item Name="Get all devices core info.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/Get all devices core info.vi"/>
@@ -1106,7 +1090,7 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_Bella_Control_Center.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_Bella_Laser.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
@@ -1160,10 +1144,10 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_Bella_Control_Center.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_Bella_Laser.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GUI_Bella_Laser_separate_graphs.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
@@ -1280,10 +1264,10 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_Bella_Control_Center.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_Bella_Laser.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GUI_Bella_GAIAs.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
@@ -1701,6 +1685,159 @@
 				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{60C200EB-7B57-4521-AB06-E20811728031}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI-IP2-Plasma1.exe</Property>
+			</Item>
+			<Item Name="GUI_kHz_HCF" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{02780299-59EE-49B6-AE26-11E89B60DB07}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D136C2B4-5756-4D63-9153-C0B497FCA09B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9596D861-BB2D-4751-B548-2399C620738C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_kHz_HCF</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_HCF</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7724DD6F-E330-488D-A526-6A544E174021}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_kHz_HCF.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_HCF/GUI_kHz_HCF.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_HCF/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ED251C41-11EF-4BBA-9C21-F00B89A9B060}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_kHz_HCF.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C1DF8CAA-E960-4605-A996-88688C4455AB}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_kHz_HCF.exe</Property>
+			</Item>
+			<Item Name="GUI_kHz_FF" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{77F7C25D-1A41-4388-B120-F07660040087}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{ABD83E48-7620-4B42-8791-DF2A87778407}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A89D64E0-E5D7-4F7A-A27D-B7E4BF9AD8B5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_kHz_FF</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_FF</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{0A67756A-5C02-4516-BE8F-FA098F07CC9C}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_kHz_FF.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_FF/GUI_kHz_FF.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_FF/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ED251C41-11EF-4BBA-9C21-F00B89A9B060}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_kHz_HCF.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_kHz_FF.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1A6C50AA-5763-44C7-95C9-9450244E7EEE}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_kHz_FF.exe</Property>
+			</Item>
+			<Item Name="GUI_kHz_FF_small" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0AE36127-1E72-46E4-92E7-7E4A145A8678}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F7527F53-13AC-48F1-BE98-07E5B6F219AF}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6342C1DF-9521-41B1-83EC-B26D1431EE32}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_kHz_FF_small</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_FF_small</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5AAD4061-C5DF-4335-A58D-83FCEE9CA40C}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_kHz_FF_small.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_FF_small/GUI_kHz_FF_small.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_kHz_FF_small/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9509B463-8412-4CCE-AA1D-D6AB1B0846E6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_kHz_HCF.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_kHz_FF.vi</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GUI_kHz_FF_small.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{29C9FA85-B375-4929-9734-B10B2FC5F78A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_kHz_FF_small.exe</Property>
 			</Item>
 		</Item>
 	</Item>
