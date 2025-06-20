@@ -113,6 +113,8 @@
 		<Item Name="GUI_Bella_LaserTable_Frontend.vi" Type="VI" URL="../GUI_Bella_LaserTable_Frontend.vi"/>
 		<Item Name="DefaultValue_Variable_MC.vi" Type="VI" URL="../../../General GUIs/Database Manager/DefaultValue_Variable_MC.vi"/>
 		<Item Name="Jet on times.ctl" Type="VI" URL="../Jet on times.ctl"/>
+		<Item Name="IP2 SMF in.vi" Type="VI" URL="../IP2 SMF in.vi"/>
+		<Item Name="IP2 SMF out.vi" Type="VI" URL="../IP2 SMF out.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -707,6 +709,9 @@
 			<Item Name="populateVariableFromDeviceTypeVariable.vi" Type="VI" URL="../../../General GUIs/Database Manager/populateVariableFromDeviceTypeVariable.vi"/>
 			<Item Name="SQL Insert.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Insert.vi"/>
 			<Item Name="TimeoutDialog.vi" Type="VI" URL="../../../General GUIs/General-Controler/TimeoutDialog.vi"/>
+			<Item Name="Listen to slow UDP and parse error.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error.vi"/>
+			<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../../GUI_TapeDrive/send udp and wait for slow response.vi"/>
+			<Item Name="get set udp value from dev var alias array.vi" Type="VI" URL="../../../Shared/get set udp value from dev var alias array.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
