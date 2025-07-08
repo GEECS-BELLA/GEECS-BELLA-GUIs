@@ -712,6 +712,19 @@
 			<Item Name="Listen to slow UDP and parse error.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error.vi"/>
 			<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../../GUI_TapeDrive/send udp and wait for slow response.vi"/>
 			<Item Name="get set udp value from dev var alias array.vi" Type="VI" URL="../../../Shared/get set udp value from dev var alias array.vi"/>
+			<Item Name="Mode imager in sequence.vi" Type="VI" URL="../Mode imager in sequence.vi"/>
+			<Item Name="Popup with timeout.vi" Type="VI" URL="../../../Shared/Popup with timeout.vi"/>
+			<Item Name="MoveMI_in_vert.vi" Type="VI" URL="../MoveMI_in_vert.vi"/>
+			<Item Name="Set UDP and wait TCP value in range.vi" Type="VI" URL="../Set UDP and wait TCP value in range.vi"/>
+			<Item Name="GEECS tcp open single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp open single variable.vi"/>
+			<Item Name="create udp send cluster.vi" Type="VI" URL="../../../General GUIs/General-Controler/create udp send cluster.vi"/>
+			<Item Name="UDP send cluster.ctl" Type="VI" URL="../../../General GUIs/General-Controler/UDP send cluster.ctl"/>
+			<Item Name="GEECS tcp read single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp read single variable.vi"/>
+			<Item Name="GEECS tcp parse single variable.vi" Type="VI" URL="../../../Shared/TCP/GEECS tcp parse single variable.vi"/>
+			<Item Name="get variable value from udp get response.vi" Type="VI" URL="../../../General GUIs/General-Controler/get variable value from udp get response.vi"/>
+			<Item Name="MoveMI_in_lat.vi" Type="VI" URL="../MoveMI_in_lat.vi"/>
+			<Item Name="MoveMI_in_focus.vi" Type="VI" URL="../MoveMI_in_focus.vi"/>
+			<Item Name="MoveGOSSIP_out.vi" Type="VI" URL="../MoveGOSSIP_out.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
