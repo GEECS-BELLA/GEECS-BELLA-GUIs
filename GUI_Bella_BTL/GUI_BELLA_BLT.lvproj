@@ -115,6 +115,7 @@
 		<Item Name="Jet on times.ctl" Type="VI" URL="../Jet on times.ctl"/>
 		<Item Name="IP2 SMF in.vi" Type="VI" URL="../IP2 SMF in.vi"/>
 		<Item Name="IP2 SMF out.vi" Type="VI" URL="../IP2 SMF out.vi"/>
+		<Item Name="GUI_Bella_IP2_LiquidCrystal.vi" Type="VI" URL="../GUI_Bella_IP2_LiquidCrystal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -709,8 +710,6 @@
 			<Item Name="populateVariableFromDeviceTypeVariable.vi" Type="VI" URL="../../../General GUIs/Database Manager/populateVariableFromDeviceTypeVariable.vi"/>
 			<Item Name="SQL Insert.vi" Type="VI" URL="../../../General GUIs/Database Manager/SubVIs/SQL Insert.vi"/>
 			<Item Name="TimeoutDialog.vi" Type="VI" URL="../../../General GUIs/General-Controler/TimeoutDialog.vi"/>
-			<Item Name="Listen to slow UDP and parse error.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error.vi"/>
-			<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../../GUI_TapeDrive/send udp and wait for slow response.vi"/>
 			<Item Name="get set udp value from dev var alias array.vi" Type="VI" URL="../../../Shared/get set udp value from dev var alias array.vi"/>
 			<Item Name="Mode imager in sequence.vi" Type="VI" URL="../Mode imager in sequence.vi"/>
 			<Item Name="Popup with timeout.vi" Type="VI" URL="../../../Shared/Popup with timeout.vi"/>
@@ -725,6 +724,7 @@
 			<Item Name="MoveMI_in_lat.vi" Type="VI" URL="../MoveMI_in_lat.vi"/>
 			<Item Name="MoveMI_in_focus.vi" Type="VI" URL="../MoveMI_in_focus.vi"/>
 			<Item Name="MoveGOSSIP_out.vi" Type="VI" URL="../MoveGOSSIP_out.vi"/>
+			<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../../../Bella center GUIs/GUI_TapeDrive/send udp and wait for slow response.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
@@ -1717,6 +1717,60 @@
 				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{60C200EB-7B57-4521-AB06-E20811728031}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI-IP2-Plasma1.exe</Property>
+			</Item>
+			<Item Name="GUI_Bella_IP2_LiquidCrystal" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E45875BA-55B1-4327-9806-5F86A79B4AB4}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{CDFCAF5A-5DE5-4D4A-8596-654C470FD009}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7ECB16C9-A6EC-4007-B669-CB9691A5BAE7}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_Bella_IP2_LiquidCrystal</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_IP2_LiquidCrystal</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{36623848-3D4D-4143-948C-3BFB68F3C512}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_Bella_IP2_LiquidCrystal.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_IP2_LiquidCrystal/GUI_Bella_IP2_LiquidCrystal.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_Bella_IP2_LiquidCrystal/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL2.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1247DB3A-70B5-44A4-BA50-C0DA68C62D9A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Bella_FilterWheels_All.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_Bella_IP2.vi</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GUI_Bella_IP2_LiquidCrystal.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{52B85FE0-A380-40B3-8421-0C12BCF271C4}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_Bella_IP2_LiquidCrystal.exe</Property>
 			</Item>
 		</Item>
 	</Item>
