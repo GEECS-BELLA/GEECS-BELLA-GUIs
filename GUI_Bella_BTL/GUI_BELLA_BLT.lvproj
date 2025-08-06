@@ -116,6 +116,7 @@
 		<Item Name="IP2 SMF in.vi" Type="VI" URL="../IP2 SMF in.vi"/>
 		<Item Name="IP2 SMF out.vi" Type="VI" URL="../IP2 SMF out.vi"/>
 		<Item Name="GUI_Bella_IP2_LiquidCrystal.vi" Type="VI" URL="../GUI_Bella_IP2_LiquidCrystal.vi"/>
+		<Item Name="GUI_Bella_Control_Center_Staging.vi" Type="VI" URL="../GUI_Bella_Control_Center_Staging.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
@@ -724,7 +725,8 @@
 			<Item Name="MoveMI_in_lat.vi" Type="VI" URL="../MoveMI_in_lat.vi"/>
 			<Item Name="MoveMI_in_focus.vi" Type="VI" URL="../MoveMI_in_focus.vi"/>
 			<Item Name="MoveGOSSIP_out.vi" Type="VI" URL="../MoveGOSSIP_out.vi"/>
-			<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../../../Bella center GUIs/GUI_TapeDrive/send udp and wait for slow response.vi"/>
+			<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../../GUI_TapeDrive/send udp and wait for slow response.vi"/>
+			<Item Name="Listen to slow UDP and parse error.vi" Type="VI" URL="../../../Shared/Listen to slow UDP and parse error.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GUI_Bella_Control_Center" Type="EXE">
@@ -752,7 +754,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/gnome_control_center.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{601AE46E-AC8F-4B69-8FFC-583A2D6D4CDD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{130EA215-A041-4D05-8B30-02F8459BA55B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
@@ -773,9 +775,12 @@
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/GUI_Bella_Control_Center_iP2.vi</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/GUI_Bella_Control_Center_Staging.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
