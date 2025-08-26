@@ -67,6 +67,7 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="GUI_Bella_Control_Center_Staging.vi" Type="VI" URL="../GUI_Bella_Control_Center_Staging.vi"/>
 		<Item Name="GUI_Bella_Control_Center_OFI.vi" Type="VI" URL="../GUI_Bella_Control_Center_OFI.vi"/>
 		<Item Name="GUI_Bella_Control_Center_iP2.vi" Type="VI" URL="../GUI_Bella_Control_Center_iP2.vi"/>
 		<Item Name="GUI_Bella_Control_Center.vi" Type="VI" URL="../GUI_Bella_Control_Center.vi"/>
@@ -116,7 +117,6 @@
 		<Item Name="IP2 SMF in.vi" Type="VI" URL="../IP2 SMF in.vi"/>
 		<Item Name="IP2 SMF out.vi" Type="VI" URL="../IP2 SMF out.vi"/>
 		<Item Name="GUI_Bella_IP2_LiquidCrystal.vi" Type="VI" URL="../GUI_Bella_IP2_LiquidCrystal.vi"/>
-		<Item Name="GUI_Bella_Control_Center_Staging.vi" Type="VI" URL="../GUI_Bella_Control_Center_Staging.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
