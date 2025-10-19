@@ -490,6 +490,7 @@
 			<Item Name="scan data to receive to subscribe commands.vi" Type="VI" URL="../../../Shared/scan data to receive to subscribe commands.vi"/>
 			<Item Name="scopeTrace_TypDef.ctl" Type="VI" URL="../../../General GUIs/Device GUIs/GUI_Scopes/scopeTrace_TypDef.ctl"/>
 			<Item Name="scopeTraceInfo_TypDEf.ctl" Type="VI" URL="../../../Device Drivers/shared/scopeTraceInfo_TypDEf.ctl"/>
+			<Item Name="select requested data from MC tcp queue.vi" Type="VI" URL="../../../General GUIs/General-Controler/Subvi/select requested data from MC tcp queue.vi"/>
 			<Item Name="Send command and listen to fast UDP.vi" Type="VI" URL="../../../Shared/Send command and listen to fast UDP.vi"/>
 			<Item Name="sendCommandAndListen_udpqueue.vi" Type="VI" URL="../../../Shared/sendCommandAndListen_udpqueue.vi"/>
 			<Item Name="SendCommandEvent_alternate_udpqueue.vi" Type="VI" URL="../../../General GUIs/shared/SendCommandEvent_alternate_udpqueue.vi"/>
