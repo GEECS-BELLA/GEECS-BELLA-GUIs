@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,12 +14,13 @@
 		<Item Name="GUI_Template" Type="Folder" URL="../../../Shared/GUI_Template">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="GUI_TapeDrive2.vi" Type="VI" URL="../GUI_TapeDrive2.vi"/>
 		<Item Name="GUI_Tape_Alignment.vi" Type="VI" URL="../GUI_Tape_Alignment.vi"/>
 		<Item Name="GUI_TapeDrive.vi" Type="VI" URL="../GUI_TapeDrive.vi"/>
-		<Item Name="GUI_TapeDrive2.vi" Type="VI" URL="../GUI_TapeDrive2.vi"/>
 		<Item Name="GUI_TapeDrive_iP2.vi" Type="VI" URL="../GUI_TapeDrive_iP2.vi"/>
 		<Item Name="send udp and wait for slow response.vi" Type="VI" URL="../send udp and wait for slow response.vi"/>
 		<Item Name="udp send test.vi" Type="VI" URL="../../../Shared/udp send test.vi"/>
+		<Item Name="vcr_icon.ico" Type="Document" URL="../../../Device Drivers/TapeDrive/vcr_icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -596,7 +598,8 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9FB452C2-9EF8-4684-AC6D-7FEF955228A6}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/vcr_icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CB32CD8B-1B7B-4130-B45A-2C21AB68C9DD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_TapeDrive.vi</Property>
