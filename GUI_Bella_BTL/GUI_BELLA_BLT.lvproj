@@ -754,7 +754,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/gnome_control_center.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{46798320-C6B8-4F1C-B10B-F556BF4A07E5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0867DB1B-2B19-4CA0-93B2-DC28B4EBEAB5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
