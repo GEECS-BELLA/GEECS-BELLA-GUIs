@@ -23,6 +23,7 @@
 		<Item Name="vcr_icon.ico" Type="Document" URL="../../../Device Drivers/TapeDrive/vcr_icon.ico"/>
 		<Item Name="Play button.ctl" Type="VI" URL="../Play button.ctl"/>
 		<Item Name="Play button2.ctl" Type="VI" URL="../Play button2.ctl"/>
+		<Item Name="GUI_Windmill.vi" Type="VI" URL="../../GUI_Windmill/GUI_Windmill.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -686,6 +687,67 @@
 				<Property Name="TgtF_productName" Type="Str">GUI_TapeDrive</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{CE5005DB-D461-4985-9BFD-2A675F8CD7B1}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI_TapeDrive_iP2.exe</Property>
+			</Item>
+			<Item Name="GUI_Windmill" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5F1D5D60-CCCD-4E5D-AB74-A47775339006}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{794EE136-9FB0-494F-8F6B-FC430F597936}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LBNL.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B2FD2F78-D88E-4B5E-AEE6-23CDE6C28272}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_Windmill</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_Windmill</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{0C9F98BD-BF52-4AA7-B6DA-732788AA4C67}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_Windmill.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_Windmill/GUI_Windmill.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/General GUIs/Device GUIs/GUI_Windmill/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/vcr_icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{099C333F-1C18-4871-A612-20DF8339B29C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_TapeDrive.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_TapeDrive2.vi</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">4</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GUI_Windmill.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_TapeDrive</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_TapeDrive</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_TapeDrive</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B1AF04A4-033A-461E-BBD5-60C0C5B4E1C4}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_Windmill.exe</Property>
 			</Item>
 		</Item>
 	</Item>
