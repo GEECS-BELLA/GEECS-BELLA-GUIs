@@ -117,6 +117,9 @@
 		<Item Name="IP2 SMF in.vi" Type="VI" URL="../IP2 SMF in.vi"/>
 		<Item Name="IP2 SMF out.vi" Type="VI" URL="../IP2 SMF out.vi"/>
 		<Item Name="GUI_Bella_IP2_LiquidCrystal.vi" Type="VI" URL="../GUI_Bella_IP2_LiquidCrystal.vi"/>
+		<Item Name="experiment editor scan delays SCS on off.ctl" Type="VI" URL="../experiment editor scan delays SCS on off.ctl"/>
+		<Item Name="delay scan start and end.ctl" Type="VI" URL="../delay scan start and end.ctl"/>
+		<Item Name="create sql query SRS delays expt editor scan start and end.vi" Type="VI" URL="../create sql query SRS delays expt editor scan start and end.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
