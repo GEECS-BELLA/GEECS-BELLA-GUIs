@@ -69,6 +69,7 @@
 		</Item>
 		<Item Name="GUI_Bella_Control_Center_Staging.vi" Type="VI" URL="../GUI_Bella_Control_Center_Staging.vi"/>
 		<Item Name="GUI_Bella_Control_Center_OFI.vi" Type="VI" URL="../GUI_Bella_Control_Center_OFI.vi"/>
+		<Item Name="GUI_Bella_IP2.vi" Type="VI" URL="../GUI_Bella_IP2.vi"/>
 		<Item Name="GUI_Bella_Control_Center_iP2.vi" Type="VI" URL="../GUI_Bella_Control_Center_iP2.vi"/>
 		<Item Name="GUI_Bella_Control_Center.vi" Type="VI" URL="../GUI_Bella_Control_Center.vi"/>
 		<Item Name="GUI_Bella_1BL.vi" Type="VI" URL="../GUI_Bella_1BL.vi"/>
@@ -76,7 +77,6 @@
 		<Item Name="GUI_Bella_Triggers.vi" Type="VI" URL="../GUI_Bella_Triggers.vi"/>
 		<Item Name="GUI_MspecStitcher.vi" Type="VI" URL="../GUI_MspecStitcher.vi"/>
 		<Item Name="GUI_Bella_BTLsmall.vi" Type="VI" URL="../GUI_Bella_BTLsmall.vi"/>
-		<Item Name="GUI_Bella_IP2.vi" Type="VI" URL="../GUI_Bella_IP2.vi"/>
 		<Item Name="GUI_Bella_IP2_plasma1.vi" Type="VI" URL="../GUI_Bella_IP2_plasma1.vi"/>
 		<Item Name="GUI_Bella_FilterWheels_All.vi" Type="VI" URL="../GUI_Bella_FilterWheels_All.vi"/>
 		<Item Name="GUI_Bella_BTL_timed.vi" Type="VI" URL="../GUI_Bella_BTL_timed.vi"/>
