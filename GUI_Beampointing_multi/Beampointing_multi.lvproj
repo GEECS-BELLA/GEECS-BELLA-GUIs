@@ -637,7 +637,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/3dlb-3d-Vol2-Target.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A84716DD-5951-45E3-9114-5057A634AC85}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E8DD096F-ADA7-4820-98F1-83AB8EA69C7A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/obsolete/Beampointing_Multi_TRA2.vi</Property>

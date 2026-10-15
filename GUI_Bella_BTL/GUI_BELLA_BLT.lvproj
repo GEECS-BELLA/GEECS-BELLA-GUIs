@@ -68,6 +68,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="GUI_Bella_Control_Center_Staging.vi" Type="VI" URL="../GUI_Bella_Control_Center_Staging.vi"/>
+		<Item Name="Mspec Stitcher gui.vi" Type="VI" URL="../Mspec Stitcher gui.vi"/>
 		<Item Name="GUI_Bella_Control_Center_OFI.vi" Type="VI" URL="../GUI_Bella_Control_Center_OFI.vi"/>
 		<Item Name="GUI_Bella_IP2.vi" Type="VI" URL="../GUI_Bella_IP2.vi"/>
 		<Item Name="GUI_Bella_Control_Center_iP2.vi" Type="VI" URL="../GUI_Bella_Control_Center_iP2.vi"/>
@@ -1350,7 +1351,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/gnome_control_center.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6DAE6176-A482-4BDC-B0C8-21C3E5BDA5B9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E3A10CEB-097F-4672-B0DF-22BFC6B35EAE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
@@ -1780,6 +1781,57 @@
 				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{52B85FE0-A380-40B3-8421-0C12BCF271C4}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">GUI_Bella_IP2_LiquidCrystal.exe</Property>
+			</Item>
+			<Item Name="GUI_PW_MSpecStitcher" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{6D79CC16-EA1E-491D-8E06-22A5BCFA2FFE}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{16223699-5A44-4DEC-AB4D-FC8FA9A3422A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6F52F2E1-CB8E-476E-AB2A-F69E6158680D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GUI_PW_MSpecStitcher</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_PW_MSpecStitcher</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{2DB40027-ADBA-4241-B6B4-A8E23F5E7319}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GUI_PW_MSpecStitcher.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_PW_MSpecStitcher/GUI_PW_MSpecStitcher.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GEECS/Developers Version/builds/Interface builds/Non-General GUIs/BELLA/GUI_PW_MSpecStitcher/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/GUI_Bella_BTL2.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87A9022F-6E18-4A8E-B602-287485C35590}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI_Bella_BTL_timed.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GUI_Bella_FilterWheels_All.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GUI_Template</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Mspec Stitcher gui.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">LBNL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_internalName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 LBNL</Property>
+				<Property Name="TgtF_productName" Type="Str">GUI_Bella_BTL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{29E081D4-7FD9-421A-8431-0739A7FA02E5}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GUI_PW_MSpecStitcher.exe</Property>
 			</Item>
 		</Item>
 	</Item>
